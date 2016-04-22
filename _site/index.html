@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Paper Theme</title>
+  <meta name="description" content="A gentle theme for Jekyll utilising material design.
+">
+
+  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.blue-pink.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="//">
+  <link rel="alternate" type="application/rss+xml" title="Paper Theme" href="/feed.xml" />
+</head>
+
+
+  <body>
+    <div class="paper-layout mdl-layout mdl-js-layout">
+      <header id="toolbar" class="paper-layout-header mdl-layout__header mdl-layout__header--waterfall">
+  <!-- Top row, always visible -->
+  <div class="mdl-layout__header-row">
+    <!-- Title -->
+    <span class="mdl-layout-title">Paper Theme</span>
+    <div class="mdl-layout-spacer"></div>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                mdl-textfield--floating-label mdl-textfield--align-right">
+      <label class="mdl-button mdl-js-button mdl-button--icon"
+             for="search-input">
+        <i class="material-icons">search</i>
+      </label>
+      <div class="mdl-textfield__expandable-holder">
+        <input class="mdl-textfield__input" type="text" name="sample"
+               id="search-input" />
+      </div>
+    </div>
+    <ul id="search-results">
+      <li class="mdl-menu__item" disabled>Search results</li>
+    </ul>
+  </div>
+
+  <!-- Bottom row, not visible on scroll -->
+  <div class="mdl-layout__header-row">
+    <div class="paper-avatar">
+      <img src="http://www.gravatar.com/avatar/?size=75"/>
+    </div>
+    <div class="mdl-layout-spacer"></div>
+    <!-- Navigation -->
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="/">Home</a>
+      
+        
+          <a class="mdl-navigation__link" href="/about/">About</a>
+        
+      
+        
+      
+        
+          <a class="mdl-navigation__link" href="/categories.html">Categories</a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </nav>
+  </div>
+</header>
+
+
+<div class="paper-drawer mdl-layout__drawer mdl-color--blue-500">
+  <header class="paper-drawer-header">
+    <img class="avatar" src="http://www.gravatar.com/avatar/"/>
+    <span class="paper-drawer-title">Paper Theme</span>
+  </header>
+
+  <nav class="paper-navigation mdl-navigation mdl-color--grey-200 mdl-color-text--grey-600">
+    <a class="mdl-navigation__link" href="/">
+      <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>
+      Home
+    </a>
+    
+      
+      <a class="mdl-navigation__link" href="/about/">
+        
+          <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">info_outline</i>
+        
+        About
+      </a>
+      
+    
+      
+    
+      
+      <a class="mdl-navigation__link" href="/categories.html">
+        
+          <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">folder</i>
+        
+        Categories
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    <div class="mdl-layout-spacer"></div>
+    <a class="mdl-navigation__link" href="https://github.com/dbtek/paper">
+      <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">help_outline</i>
+      On Jekyll with Paper Theme
+    </a>
+  </nav>
+</div>
+
+
+      <main class="mdl-layout__content">
+        <div id="container" class="paper-container">
+          <div class="paper-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell">
+            <div class="paper-home">
+  
+    <div class="post">
+      <div class="header">
+        <h5 class="subheader">
+          
+          April
+          22nd,
+          
+          2016
+        </h5>
+        <h1>Android 学习笔记(05) 基本UI布局</h1>
+      </div>
+      <h4 id="viewviewgroup"><strong>1、View和ViewGroup</strong></h4> <p>　　Activity是Android应用程序的基本管理单元，Android的每一个窗口都是通过一个Activity来定义的，但是Activity并不能直接用来显示窗口。我们需要调用setContentView(View view)来显示这个窗口。也就是说，真正用来显示窗口的是View类及其子类。</p> <p>　　View主要负责绘制元素和事件处理，提供了许多用于绘制界面的子类。比如Button类，TextView类，EditText类等等。我们可以通过这些子类控件来进行一些简单的界面绘制。</p> <p>　　ViewGroup是View的子类，主要作用是容纳其他元素。ViewGroup是一个抽象类，所以容纳其他元素充当一个容器的任务实际上是通过其子类完成的。比如FrameLayout类、LinearLayout类、AbsoluteLayout类、RelativeLayout类、TableLayout类、GridLayout类等等。</p> <p>// Android APIs ViewGroup extends View implements ViewParent ViewManager</p> <p>java.lang.Object</p> <p>↳ android.view.View</p> <pre><code> ↳ android.view.ViewGroup </code></pre> <p>Known Direct Subclasses： AbsoluteLayout, AdapterView<t extends="" adapter="">, CoordinatorLayout, DrawerLayout, FragmentBreadCrumbs, FrameLayout, GridLayout, LinearLayout, LinearLayoutCompat, PagerTitleStrip, RecyclerView, RelativeLayout, ShadowOverlayContainer, SlidingDrawer, SlidingPaneLayout, SwipeRefreshLayout, Toolbar, TvView, ViewPager</t></p> <p>Known Indirect Subclasses: AbsListView, AbsSpinner, ActionMenuView, AdapterViewAnimator, AdapterViewFlipper, AppBarLayout, AppCompatSpinner, AppWidgetHostView, BaseCardView, BrowseFrameLayout, and 43 others.</p> <h4 id="section"><strong>2、普通布局</strong></h4> <h5 id="a-framelayout">A. FrameLayout</h5> <p>　　FrameLayout，框架布局。是一种最简单的布局类型，将所有的组件固定在界面的左上角，叠加显示，后一个组件在前一个组件之上显示。也就是说，后一个组件可能会覆盖前一个组件。</p> <figure class="highlight"><pre><code class="language-xml" data-lang="xml"><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span>...
+      <a class="mdl-button mdl-button--accent" href="/android-study/2016/04/22/Android-Study-05-Basic-UI-Layout.html">Read more</a>
+    </div>
+  
+    <div class="post">
+      <div class="header">
+        <h5 class="subheader">
+          
+          April
+          22nd,
+          
+          2016
+        </h5>
+        <h1>Android 学习笔记(04) BroadcastReceiver监听电池信息</h1>
+      </div>
+      <p>　　在Android 中，Broadcast是一种在应用程序之间进行传输信息的机制。BroadcastReceiver对发送过来的Broadcast进行过滤和响应。根据这种机制，我们可以获取电池现有电量等信息。</p> <h4 id="broadcastreceiver"><strong>1、实例化BroadcastReceiver</strong></h4> <p>　　在接受信息的时候，可以通过intent.getAction().equals(Intent.ACTION_BATTERY_CHANGED)来判断接收的信息是否为电池电量变化信息。如果是，就获取此信息的详细情况。</p> <figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="lineno"> 1</span> <span class="kd">private</span> <span class="n">BroadcastReceiver</span> <span class="n">batteryInfoReceiver</span> <span class="o">=</span> <span class="k">new</span> <span class="nf">BroadcastReceiver</span><span class="o">()</span> <span class="o">{</span> <span class="lineno"> 2</span> <span class="nd">@Override</span> <span class="lineno"> 3</span> <span class="kd">public</span> <span class="kt">void</span> <span class="nf">onReceive</span><span class="o">(</span><span class="n">Context</span> <span class="n">context</span><span class="o">,</span> <span class="n">Intent</span> <span class="n">intent</span><span class="o">)</span> <span class="o">{</span> <span class="lineno"> 4</span> <span class="k">if</span><span class="o">(</span><span class="n">intent</span><span class="o">.</span><span class="na">getAction</span><span class="o">().</span><span class="na">equals</span><span class="o">(</span><span class="n">Intent</span><span class="o">.</span><span class="na">ACTION_BATTERY_CHANGED</span><span class="o">)){</span> <span class="lineno"> 5</span> <span class="kt">int</span> <span class="n">level</span>...
+      <a class="mdl-button mdl-button--accent" href="/android-study/2016/04/22/Android-Study-04-BroadcastReceiver.html">Read more</a>
+    </div>
+  
+    <div class="post">
+      <div class="header">
+        <h5 class="subheader">
+          
+          April
+          22nd,
+          
+          2016
+        </h5>
+        <h1>Android 学习笔记(03) Activity 间传递数据</h1>
+      </div>
+      <h4 id="section"><strong>1. 简单数据传递</strong></h4> <p>　　建立两个Activity，名称分别为MainActivity和TheAty，在MainActivity中新建一个Button，id为btnStartAty。在TheAty中新建一个TextView，id为tv。分别加入如下代码：</p> <p>MainActivity.java</p> <figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="lineno"> 1</span> <span class="kd">public</span> <span class="kd">class</span> <span class="nc">MainActivity</span> <span class="kd">extends</span> <span class="n">AppCompatActivity</span> <span class="o">{</span> <span class="lineno"> 2</span> <span class="lineno"> 3</span> <span class="nd">@Override</span> <span class="lineno"> 4</span> <span class="kd">protected</span> <span class="kt">void</span> <span class="nf">onCreate</span><span class="o">(</span><span class="n">Bundle</span> <span class="n">savedInstanceState</span><span class="o">)</span> <span class="o">{</span> <span class="lineno"> 5</span> <span class="kd">super</span><span class="o">.</span><span class="na">onCreate</span><span class="o">(</span><span class="n">savedInstanceState</span><span class="o">);</span> <span class="lineno"> 6</span> <span class="n">setContentView</span><span class="o">(</span><span class="n">R</span><span class="o">.</span><span class="na">layout</span><span class="o">.</span><span class="na">activity_main</span><span class="o">);</span> <span class="lineno"> 7</span> <span class="lineno"> 8</span>...
+      <a class="mdl-button mdl-button--accent" href="/android-study/2016/04/22/Android-Study-03-Activity-Data-Transfer.html">Read more</a>
+    </div>
+  
+    <div class="post">
+      <div class="header">
+        <h5 class="subheader">
+          
+          April
+          22nd,
+          
+          2016
+        </h5>
+        <h1>Android 学习笔记(02) Activity 生命周期</h1>
+      </div>
+      <h4 id="activity"><strong>1. 单个Activity的生命周期</strong></h4>
+<p>　　当只有一个Activity的时候， 首先执行onCreate-&gt;onStart-&gt;onResume。 这时， 窗口便显示在屏幕上了。 然后我们按返回键退到桌面的时候，便执行onPause-&gt;onStop。这时候， 如果我们在最近使用程序列表内将其再次打开，便会执行onRestart-&gt;onStart-&gt;onResume。</p>
+
+<div style="text-align: center">
+<img src="/images/2016042201.png" />
+</div>
+
+<h4 id="activity-1">2. <strong>多个Activity相互跳转</strong></h4>
+<p>　　首先执行A.onCreate-&gt;A.onStart-&gt;A.onResume， 此时屏幕显示Activity A， 通过A来调用显示Activity B的时候，首先执行A.onPause， 然后执行B.onCreate-&gt;B.onStart-&gt;B.onResume， 在B显示之后执行A.onStop。之后按返回键返回到 A， 需要首先暂停窗口B，即执行 B.onPause， 但是需要指出的是， 这个时候在暂停B之后紧接着执行的是 A.onResume， 之后才会执行B的销毁程序 B.onStop-&gt;B.onDestroy。</p>
+
+<h4 id="ba">3. <strong>当B是对话框的时候(不能完全遮挡A)</strong></h4>
+<p>　　此时，因为B没有完全遮挡A， 只需要执行A.onPause即可， 不需要执行 A.onStop。其他的过程与2相同。</p>
+
+      <a class="mdl-button mdl-button--accent" href="/android-study/2016/04/22/Android-Study-02-Activity-Life.html">Read more</a>
+    </div>
+  
+    <div class="post">
+      <div class="header">
+        <h5 class="subheader">
+          
+          April
+          22nd,
+          
+          2016
+        </h5>
+        <h1>Android 学习笔记(01) Activity 跳转</h1>
+      </div>
+      <h4 id="projectmainactivity"><strong>1.新建Project，并将主页命名为MainActivity</strong></h4> <h4 id="activity"><strong>2.创建一个Activity</strong></h4> <p>　　在App上“右键-&gt;New-&gt;Activity-&gt;Empty Activity”， 将新建的Activity命名为AnotherAty。</p> <h4 id="mainactivity-id--text-"><strong>3.在MainActivity上添加一个按钮，并设置 id 和 text 属性</strong></h4> <p>　　打开”activity_main.xml”， 添加如下代码：</p> <figure class="highlight"><pre><code class="language-xml" data-lang="xml"><span class="nt">&lt;Button</span> <span class="na">android:layout_width=</span><span class="s">&quot;wrap_content&quot;</span> <span class="na">android:layout_height=</span><span class="s">&quot;wrap_content&quot;</span> <span class="na">android:text=</span><span class="s">&quot;Another Activity&quot;</span> <span class="na">android:id=</span><span class="s">&quot;@+id/btnStartAnotherAty&quot;</span> <span class="na">android:layout_below=</span><span class="s">&quot;@+id/textView&quot;</span> <span class="na">android:layout_alignParentLeft=</span><span class="s">&quot;true&quot;</span> <span class="na">android:layout_alignParentStart=</span><span class="s">&quot;true&quot;</span> <span class="nt">/&gt;</span></code></pre></figure> <h4 id="section"><strong>4.为按钮添加行为</strong></h4> <p>　　打开“MainActivity.java”，在OnCreate方法内添加：</p> <figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="lineno">1</span> <span class="n">findViewById</span><span class="o">(</span><span class="n">R</span><span class="o">.</span><span class="na">id</span><span class="o">.</span><span class="na">btnStartAnotherAty</span><span class="o">).</span><span class="na">setOnClickListener</span><span class="o">(</span><span class="k">new</span> <span class="n">View</span><span class="o">.</span><span class="na">OnClickListener</span><span class="o">()</span> <span class="o">{</span> <span class="lineno">2</span> <span class="nd">@Override</span>...
+      <a class="mdl-button mdl-button--accent" href="/android-study/2016/04/22/Android-Study-01-Activity-Jump.html">Read more</a>
+    </div>
+  
+
+  <div class="mdl-grid pagination">
+    <div class="mdl-cell mdl-cell--4-col previous">
+      
+        <a class="mdl-button mdl-button--primary" disabled>&larr; Newer</a>
+      
+    </div>
+
+    <div class="mdl-cell mdl-cell--4-col indicator subheader">
+      Page 1 / 2
+    </div>
+
+    <div class="mdl-cell mdl-cell--4-col next">
+      
+        <a class="mdl-button mdl-button--primary" href="/page/2">Older &rarr;</a>
+      
+    </div>
+  </div>
+</div>
+
+          </div>
+        </div>
+        <footer id="footer" class="mdl-mega-footer mdl-color--blue-grey-600 mdl-color-text--blue-grey-200">
+  <div class="mdl-mega-footer__top-section">
+    <div class="mdl-mega-footer__left-section">
+      
+      
+    </div>
+    <div class="mdl-mega-footer__right-section">
+
+    </div>
+  </div>
+  <div class="mdl-mega-footer__middle-section">
+    <div class="mdl-mega-footer__drop-down-section">
+      <h1 class="mdl-mega-footer__heading">Pages</h1>
+      <ul class="mdl-mega-footer__link-list">
+        
+          
+            <li>
+              <a href="//about/">About</a>
+            </li>
+          
+      
+          
+      
+          
+            <li>
+              <a href="//categories.html">Categories</a>
+            </li>
+          
+      
+          
+      
+          
+      
+          
+      
+          
+      
+          
+      
+      </ul>
+    </div>
+    <div class="mdl-mega-footer__drop-down-section">
+      <h1 class="mdl-mega-footer__heading">Categories</h1>
+      <ul class="mdl-mega-footer__link-list">
+          
+            
+              
+                <li>
+                  <a href="/categories.html#Documentation">
+                      Documentation
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/categories.html#Android-Study">
+                      Android-study
+                  </a>
+                </li>
+              
+            
+            
+      </ul>
+    </div>
+  </div>
+  <div class="mdl-mega-footer__bottom-section">
+    <p>
+      A gentle theme for Jekyll utilising material design.
+ On Jekyll with <a href="https://github.com/dbtek/paper">Paper</a> theme.
+    </p>
+  </div>
+</footer>
+
+      </main>
+    </div>
+
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+    <script src="/assets/jekyll-search/jekyll-search.min.js"></script>
+    <script src="/scripts/app.js"></script>
+  </body>
+
+</html>
