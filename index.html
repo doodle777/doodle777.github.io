@@ -19,7 +19,10 @@ layout: default
 			{{ post.date | date: "%Y" }}
 		</h5>
 		<h1>{{ post.title }}</h1>
-		</div>	
+		</div>
+		<div class="preview">
+		{{ post.content | truncatewords:15}}	
+		</div>
     	</div>
 	<a class="mdl-button mdl-button--accent" href="{{ post.url | replace_first: '/', '' | prepend: site.baseurl | prepend: site.url }}">Read more</a>
 	{% endfor %}
