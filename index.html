@@ -19,7 +19,7 @@ layout: default
         <h1>{{ post.title }}</h1>
       </div>
       {{ post.content | slice:0 100}}
-      <a class="mdl-button mdl-button--accent" href="{{ post.url | replace_first: '/', '' | prepend: site.baseurl | prepend: site.url }}">READ MORE</a>
+      <a class="mdl-button mdl-button--accent" href="{{ post.url | replace_first: '/', '' | prepend: site.baseurl | prepend: site.url }}">Read more</a>
     </div>
   {% endfor %}
 
