@@ -51,7 +51,7 @@ defaults:
         path: ""
         type: "posts"
     values:
-        excerpt: "{{ page.content }} | slice:300"
+        excerpt: "{{ page.content | slice:300 }}"
   - scope:
         path: ""
         type: "qqGroupGuide"
