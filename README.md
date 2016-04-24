@@ -1,15 +1,42 @@
-#Intro
+# Paper for Jekyll
+A new material design utilising theme for your Jekyll blog. Built on [Material Design Lite](http://www.getmdl.io/).
 
-My personal blog, built with Jekyll and Github page.
+![screenshot](assets/screenshots/mockup.jpg)
 
-#If you want to use this theme
+## Demo
+ [dbtek.github.io/paper-demo](http://dbtek.github.io/paper-demo)
 
-1. fork it
-2. **Important**: If you want to use [Baidu Statistics][baiduTongji] functionality, remember to replace the content of `/javascripts/baidu_statistics.js` with your own. If you don't want to use it or don't understand what I'm talking about, just comment out line 43 of `/_includes/footer.html`. 
-3. **Important**: If you want to use the [Disqus][disqus] (comment system) functionality, remember to replace the content of `/_includes/disqus_load.html` and `/_includes/disqus_count.html` with your own content. If you don't want to use it or don't understand what I'm talking about, just comment out line 27 in `/_layouts/markdownreader_bare.html` and line 35 in `/_layouts/post.html`.
-4. Modify `/_config.yml` with your own info, replace `/images/me.png` with your own.
+### Batteries Included
+There are many cool features bundled with Paper such as:
 
-That's it
+- Full Github Pages support.
+- Responsive layout.
+- Dynamic search with [jekyll-search](https://github.com/christian-fei/Simple-Jekyll-Search/).
+- Customizable theme colors.
+- Sass variables.
+- RSS feed.
+- Post tags and categories.
+- Pagination.
+- Syntax highlighting with pygments.
+- Disqus comments.
 
-[baiduTongji]: http://tongji.baidu.com/web/welcome/login
-[disqus]: https://disqus.com/
+### Tech
+Under the hood Paper contains:  
+- Material Design Lite.
+- CoffeeScript.
+- Sass.
+
+### Install
+Easiest way of getting Paper work is forking.
+
+- Fork the [repo](https://github.com/dbtek/paper).
+- Rename forked repo as `username.github.io`.
+- Set up blog by editing `_config.yml`.
+- Enjoy.
+
+### Author
+Ismail Demirbilek
+[@dbtek](https://twitter.com/dbtek)
+
+### License
+[MIT](http://opensource.org/licenses/MIT)
