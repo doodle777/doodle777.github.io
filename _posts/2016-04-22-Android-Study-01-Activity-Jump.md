@@ -10,11 +10,11 @@ tags:	Android Activity
 
 # 创建一个Activity
 
-　　在App上“右键->New->Activity->Empty Activity”， 将新建的Activity命名为AnotherAty。
+在App上“右键->New->Activity->Empty Activity”， 将新建的Activity命名为AnotherAty。
 
 # 在MainActivity上添加一个按钮，并设置 id 和 text 属性
 
-　　打开”activity_main.xml”， 添加如下代码：
+打开”activity_main.xml”， 添加如下代码：
 
 {% highlight xml %}
 <Button
@@ -29,7 +29,7 @@ android:layout_alignParentStart="true" />
 
 # 为按钮添加行为
 
-　　打开“MainActivity.java”，在OnCreate方法内添加：
+打开“MainActivity.java”，在OnCreate方法内添加：
 
 {% highlight java linenos %}
 findViewById(R.id.btnStartAnotherAty).setOnClickListener(new View.OnClickListener() {
