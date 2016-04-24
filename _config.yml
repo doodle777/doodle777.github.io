@@ -6,10 +6,8 @@ baseurl: "/" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site you most probably don't need to set it
 
 # Build settings
-markdown: kramdown
 paginate: 5 # pagination based on number of posts
 paginate_path: "page/:num"
-highlighter: rouge
 gems: [jekyll-paginate]
 
 # comments
@@ -36,3 +34,7 @@ drawer:
 footer:
   text_color: 'blue-grey-200'
   color: 'blue-grey-600'
+
+# code
+highlighter: rouge
+markdown: kramdown

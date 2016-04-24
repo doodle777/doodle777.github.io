@@ -13,14 +13,14 @@ tags:   [Android, BroadcastReceiver]
 
 {% highlight java linenos %}
 private BroadcastReceiver batteryInfoReceiver = new BroadcastReceiver() {
-         @Override
-         public void onReceive(Context context, Intent intent) {
-             if(intent.getAction().equals(Intent.ACTION_BATTERY_CHANGED)){
-                 int level = intent.getIntExtra("level", 0);
-                 int scale = intent.getIntExtra("scale", 100);
-                 batteryView.setText("BatteryLevel " + String.valueOf(level*100/scale)+"%");
-             }
-         }
+    @Override
+    public void onReceive(Context context, Intent intent) {
+	if(intent.getAction().equals(Intent.ACTION_BATTERY_CHANGED)){
+	    int level = intent.getIntExtra("level", 0);
+	    int scale = intent.getIntExtra("scale", 100);
+	    batteryView.setText("BatteryLevel " + String.valueOf(level*100/scale)+"%");
+	    }
+	}
     };
 {% endhighlight %}
 
