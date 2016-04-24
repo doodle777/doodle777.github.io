@@ -22,14 +22,15 @@ description: "Fanghao's personal weblog, on coding or such stuff"
 my:
     displayName: UniFreak
     realName: FangHao
-    realName_cn: 段旭
-    jobTitle: "C++ Coder"
+    realName_cn: 方浩
+    jobTitle: "PHP Coder"
     contact:
-        qq: 1013043915
-        email: duanxu@outlook.com
-        github: http://www.github.com/doodle777
-        qzone: http://1013043915.qzone.qq.com
-        tel: 15195766286
+        qq: 744910240
+        email: fanghao90s@gmail.com
+        github: http://www.github.com/UniFreak
+        qzone: http://744910240.qzone.qq.com
+        pinterest: https://www.pinterest.com/miblah/
+        tel: 15532915861
         address:
             country: China
             state: Beijing
@@ -51,7 +52,7 @@ defaults:
         path: ""
         type: "posts"
     values:
-        excerpt: "{{ page.content | slice:300 }}"
+        excerpt: "{{ page.content }} | slice: 0 300"
   - scope:
         path: ""
         type: "qqGroupGuide"
