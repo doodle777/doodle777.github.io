@@ -1,16 +1,17 @@
 ---
 layout: post
 title:  "Android 学习笔记(05) 基本UI布局"
-date:   2016-04-21 22:00:00
-categories: Android-Study
-tags:	Android UI-Layout
+category: Android-Study
+tags:   [Android, UI-Layout]
 ---
+
 #### **1、View和ViewGroup**
-　　Activity是Android应用程序的基本管理单元，Android的每一个窗口都是通过一个Activity来定义的，但是Activity并不能直接用来显示窗口。我们需要调用setContentView(View view)来显示这个窗口。也就是说，真正用来显示窗口的是View类及其子类。 
 
-　　View主要负责绘制元素和事件处理，提供了许多用于绘制界面的子类。比如Button类，TextView类，EditText类等等。我们可以通过这些子类控件来进行一些简单的界面绘制。 
+Activity是Android应用程序的基本管理单元，Android的每一个窗口都是通过一个Activity来定义的，但是Activity并不能直接用来显示窗口。我们需要调用setContentView(View view)来显示这个窗口。也就是说，真正用来显示窗口的是View类及其子类。 
 
-　　ViewGroup是View的子类，主要作用是容纳其他元素。ViewGroup是一个抽象类，所以容纳其他元素充当一个容器的任务实际上是通过其子类完成的。比如FrameLayout类、LinearLayout类、AbsoluteLayout类、RelativeLayout类、TableLayout类、GridLayout类等等。
+View主要负责绘制元素和事件处理，提供了许多用于绘制界面的子类。比如Button类，TextView类，EditText类等等。我们可以通过这些子类控件来进行一些简单的界面绘制。 
+
+ViewGroup是View的子类，主要作用是容纳其他元素。ViewGroup是一个抽象类，所以容纳其他元素充当一个容器的任务实际上是通过其子类完成的。比如FrameLayout类、LinearLayout类、AbsoluteLayout类、RelativeLayout类、TableLayout类、GridLayout类等等。
 
 // Android APIs
 ViewGroup
@@ -33,7 +34,7 @@ AbsListView, AbsSpinner, ActionMenuView, AdapterViewAnimator, AdapterViewFlipper
 
 ##### A. FrameLayout
 
-　　FrameLayout，框架布局。是一种最简单的布局类型，将所有的组件固定在界面的左上角，叠加显示，后一个组件在前一个组件之上显示。也就是说，后一个组件可能会覆盖前一个组件。
+FrameLayout，框架布局。是一种最简单的布局类型，将所有的组件固定在界面的左上角，叠加显示，后一个组件在前一个组件之上显示。也就是说，后一个组件可能会覆盖前一个组件。
 
 {% highlight xml %}
 <?xml version="1.0" encoding="utf-8"?>
@@ -59,7 +60,7 @@ AbsListView, AbsSpinner, ActionMenuView, AdapterViewAnimator, AdapterViewFlipper
 
 ##### B. LinearLayout
 
-　　LinearLayout，线性布局。所有的组件按照一个方向放置，其方向通过android:orientation=”horizontal”来控制，这个是水平放置组件，我们可以把horizonal改写为vertical，从而实现组件的竖直放置。
+LinearLayout，线性布局。所有的组件按照一个方向放置，其方向通过android:orientation=”horizontal”来控制，这个是水平放置组件，我们可以把horizonal改写为vertical，从而实现组件的竖直放置。
 
 {% highlight xml %}
 <LinearLayout
@@ -94,7 +95,7 @@ AbsListView, AbsSpinner, ActionMenuView, AdapterViewAnimator, AdapterViewFlipper
 
 ##### C. AbsoluteLayout
 
-　　AbsoluteLayout，绝对布局。这是一种不推荐的方式，因为其组件位置由左上角为坐标原点定义，当屏幕尺寸变化时，不能良好适应屏幕的显示需求，可能因为坐标问题在屏幕外面显示，从而用户无法对其操作。
+AbsoluteLayout，绝对布局。这是一种不推荐的方式，因为其组件位置由左上角为坐标原点定义，当屏幕尺寸变化时，不能良好适应屏幕的显示需求，可能因为坐标问题在屏幕外面显示，从而用户无法对其操作。
 
 {% highlight xml %}
 <AbsoluteLayout>
@@ -133,7 +134,7 @@ AbsListView, AbsSpinner, ActionMenuView, AdapterViewAnimator, AdapterViewFlipper
 
 ##### D. RelativeLayout
 
-　　RelativeLayout，相对布局。放置在相对布局上的组件可以设置其相对于子元素或者父元素的位置。通过指定相对父元素的位置来实现定位。
+RelativeLayout，相对布局。放置在相对布局上的组件可以设置其相对于子元素或者父元素的位置。通过指定相对父元素的位置来实现定位。
 
 {% highlight xml %}
 <RelativeLayout
@@ -209,7 +210,7 @@ AbsListView, AbsSpinner, ActionMenuView, AdapterViewAnimator, AdapterViewFlipper
 
 ##### E. GridLayout
 
-　　GridLayout，网格布局。这种布局把子视图存放在一个矩形网格中。网格是由被无数虚细线分割成多个单元格的可视区域组成。贯穿整个API的网格线通过网格索引数来指定。
+GridLayout，网格布局。这种布局把子视图存放在一个矩形网格中。网格是由被无数虚细线分割成多个单元格的可视区域组成。贯穿整个API的网格线通过网格索引数来指定。
 
 {% highlight xml %}
 <GridLayout 
@@ -301,6 +302,7 @@ AbsListView, AbsSpinner, ActionMenuView, AdapterViewAnimator, AdapterViewFlipper
 </div>
 
 #### **3、总结**
-　　以上就是几种布局的基本方法，其中包括FrameLayout、LinearLayout、AbsoluteLayout、RelativeLayout、GridLayout。使用过程中应该灵活使用，加上布局嵌套之类的。
+
+以上就是几种布局的基本方法，其中包括FrameLayout、LinearLayout、AbsoluteLayout、RelativeLayout、GridLayout。使用过程中应该灵活使用，加上布局嵌套之类的。
 
 

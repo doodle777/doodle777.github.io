@@ -1,14 +1,13 @@
 ---
 layout: post
 title:  "Android 学习笔记(03) Activity 间传递数据"
-date:   2016-04-21 21:00:00
-categories: Android-Study
-tags:	Android Activity
+category: Android-Study
+tags:   [Android, Activity]
 ---
 
 #### **1. 简单数据传递**
 
-　　建立两个Activity，名称分别为MainActivity和TheAty，在MainActivity中新建一个Button，id为btnStartAty。在TheAty中新建一个TextView，id为tv。分别加入如下代码：
+建立两个Activity，名称分别为MainActivity和TheAty，在MainActivity中新建一个Button，id为btnStartAty。在TheAty中新建一个TextView，id为tv。分别加入如下代码：
 
 MainActivity.java
 {% highlight java linenos %}
@@ -57,7 +56,7 @@ public class TheAty extends AppCompatActivity {
 }
 {% endhighlight %}
 
-　　其中，Intent i 的作用是作为绑定两个Activity的中介，然后进行string的传递。使用putExtra()的getStringExtra()函数对来实现简单值的传递。
+其中，Intent i 的作用是作为绑定两个Activity的中介，然后进行string的传递。使用putExtra()的getStringExtra()函数对来实现简单值的传递。
 
 #### **2. 使用Bundle传递数据**
 

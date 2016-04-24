@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Android 学习笔记(04) BroadcastReceiver监听电池信息"
-date:   2016-04-21 21:30:00
-categories: Android-Study
-tags:	Android BroadcastReceiver
+category: Android-Study
+tags:   [Android, BroadcastReceiver]
 ---
 
-　　在Android 中，Broadcast是一种在应用程序之间进行传输信息的机制。BroadcastReceiver对发送过来的Broadcast进行过滤和响应。根据这种机制，我们可以获取电池现有电量等信息。
+在Android 中，Broadcast是一种在应用程序之间进行传输信息的机制。BroadcastReceiver对发送过来的Broadcast进行过滤和响应。根据这种机制，我们可以获取电池现有电量等信息。
 
 #### **1、实例化BroadcastReceiver**
+
 　　在接受信息的时候，可以通过intent.getAction().equals(Intent.ACTION_BATTERY_CHANGED)来判断接收的信息是否为电池电量变化信息。如果是，就获取此信息的详细情况。
 
 {% highlight java linenos %}
@@ -25,16 +25,19 @@ private BroadcastReceiver batteryInfoReceiver = new BroadcastReceiver() {
 {% endhighlight %}
 
 #### **2、注册消息接收器**
+
 　　在onResume方法内注册消息接收器用来接收消息
 
 >registerReceiver(batteryInfoReceiver, new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
 
 #### **3、注销消息接收器**
+
 　　在onPause方法内注销消息接收器
 
 >unregisterReceiver(batteryInfoReceiver); 
 
 #### **4、完整代码**
+
 {% highlight java linenos %}
 public class MainActivity extends AppCompatActivity {
 

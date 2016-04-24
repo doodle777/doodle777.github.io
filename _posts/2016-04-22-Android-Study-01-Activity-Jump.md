@@ -5,13 +5,13 @@ category: Android-Study
 tags:   [Android, Activity]
 ---
 
-# 新建Project，并将主页命名为MainActivity
+#### **1. 新建Project，并将主页命名为MainActivity**
 
-# 创建一个Activity
+#### **2. 创建一个Activity**
 
 在App上“右键->New->Activity->Empty Activity”， 将新建的Activity命名为AnotherAty。
 
-# 在MainActivity上添加一个按钮，并设置 id 和 text 属性
+#### **3. 在MainActivity上添加一个按钮，并设置 id 和 text 属性**
 
 打开”activity_main.xml”， 添加如下代码：
 
@@ -26,7 +26,7 @@ android:layout_alignParentLeft="true"
 android:layout_alignParentStart="true" />
 {% endhighlight %}
 
-# 为按钮添加行为
+#### **4. 为按钮添加行为**
 
 打开“MainActivity.java”，在OnCreate方法内添加：
 
