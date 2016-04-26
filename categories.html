@@ -7,14 +7,14 @@ icon: folder
 <div class="mdl-grid categories">
   {% for category in site.categories %}
     <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--6-col">
-      <div class="mdl-card__title mdl-card--expand">
+      <div class="mdl-card__title">
         <h2 id="{{ category[0] | replace:' ','-' }}" class="mdl-card__title-text">{{ category[0] | capitalize }}</h2>
       </div>
 
       <div class="mdl-card__menu">
         <i class="material-icons mdl-badge" data-badge="{{ category[1].size }}">bookmark_border</i>
       </div>
-      <div class="mdl-card__actions mdl-card--border">
+      <div class="mdl-card__actions mdl-card--border mdl-card--expand">
         {% assign pages_list = category[1] %}
         {% for node in pages_list %}
           {% if node.title != null %}
