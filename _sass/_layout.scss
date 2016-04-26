@@ -200,9 +200,12 @@
 
 
 .categories {
-  .mdl-card {
+  
+  .mdl-card {    
     width: 320px;
-    >.mdl-card__title {
+    min-height: 200px;
+    
+    .mdl-card__title {
       color: #fff;
       height: 140px;
     }
