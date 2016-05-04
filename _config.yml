@@ -17,7 +17,7 @@ disqus: # add disqus shortname here
 
 # author info
 # add your appropriate info here
-author: DuanXu
+author: # your name
 bio:    # your bio
 email: duanxu@outlook.com
 email_md5: # md5 hash of your email
