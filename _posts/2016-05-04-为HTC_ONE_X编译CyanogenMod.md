@@ -6,6 +6,8 @@ category: Other
 tags:   [ROM, Recovery, CyanogenMod]
 ---
 
+本文翻译自[CyanogenMod Wiki](http://wiki.cyanogenmod.org/w/Build_for_endeavoru)。
+
 ### 简介
 
 　　这个教程将帮助你从一个解锁了 bootloader 的 HTC ONE X （以下简称 HOX）开始，然后下载必要的工具和基于谷歌安卓系统的最新的 CyanogenMod 源代码。通过这些，你可以从源代码编译 CyanogenMod 和 CyanogenMod Recovery 镜像，然后将其安装到你的手机。
