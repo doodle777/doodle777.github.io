@@ -1,5 +1,9 @@
 @import "base";
 
+.paper-layout .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
+  padding-right: 0;
+}
+
 .paper-content {
   border-radius: 2px;
   margin: 0 auto;
@@ -23,10 +27,14 @@
 }
 
 .mdl-mega-footer {
+   position: relative;
+
   .mdl-mega-footer__top-section,
   .mdl-mega-footer__middle-section,
   .mdl-mega-footer__bottom-section {
     margin: 0 auto;
+    overflow: auto;
+    left:0; right: 0;
     width: calc(100% - 20px);
     @include mobile {
       width: calc(100% - 10px);
@@ -159,10 +167,10 @@
 
 
 .paper-layout-header {
-  overflow: visible;
+  overflow: invisible;
 
   .paper-avatar {
-    position: relative;
+    position: absolute;
     left: 50%;
     top: 20px;
     margin-left: -37.5px;
