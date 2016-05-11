@@ -38,7 +38,7 @@
         {% for page in site.pages %}
           {% if page.title %}
             <li>
-              <a href="{{ page.url | prepend: site.baseurl | prepend: site.url}}" >
+              <a href="{{ page.url | replace_first: '/', '' | prepend: site.baseurl | prepend: site.url }}" >
                 {{ page.title }} 
               </a>
             </li>
@@ -70,10 +70,52 @@
             {% assign categories_list = nil %}
       </ul>
     </div>
+    <div class="mdl-mega-footer__drop-down-section">
+      <h1 class="mdl-mega-footer__heading">Tags</h1>
+      <ul class="mdl-mega-footer__link-list">
+          {% assign tags_list = site.tags %}
+            {% if tags_list.first[0] == null %}
+              {% for tag in tags_list %}
+                {% if forloop.index <= 5 %}
+                  <li>
+                    <a href="{{ 'tags.html' | prepend: site.baseurl | prepend: site.url}}/{{ tag | replace:' ','-' }}">
+                      {{ tag | capitalize }}
+                    </a>
+                  </li>
+                {% endif %}
+                {% if forloop.index == 6 %}
+                  <li>
+                    <a href="{{ 'tags.html' | prepend: site.baseurl | prepend: site.url}}">
+                      -- READ MORE --
+                    </a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            {% else %}
+              {% for tag in tags_list %}
+                {% if forloop.index <= 5 %}
+                  <li>
+                    <a href="{{ 'tags.html' | prepend: site.baseurl | prepend: site.url}}#{{ tag[0] | replace:' ','-' }}">
+                      {{ tag[0] | capitalize }}
+                    </a>
+                  </li>
+                {% endif %}
+                {% if forloop.index == 6 %}
+                  <li>
+                    <a href="{{ 'tags.html' | prepend: site.baseurl | prepend: site.url}}">
+                      -- READ MORE --
+                    </a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+            {% assign tags_list = nil %}
+      </ul>
+    </div>
   </div>
   <div class="mdl-mega-footer__bottom-section">
     <p>
-      {{ site.description }} On Jekyll with <a href="https://github.com/dbtek/paper">Paper</a> theme.
+      {{ site.description }} Based On Jekyll With <a href="https://github.com/dbtek/paper">Paper</a> Theme.
     </p>
   </div>
 </footer>
