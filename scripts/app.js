@@ -28,7 +28,7 @@
     return SimpleJekyllSearch({
       searchInput: searchInputElem,
       resultsContainer: resultsElem,
-      json: '{{ "search.json" | prepend: site.baseurl | prepend: site.url }}',
+      json: 'http://doodle777.github.io/search.json',
       searchResultTemplate: '<a class="mdl-menu__item" href="{url}">{title}</a>',
       noResultsText: '<a class="mdl-menu__item" disabled>No results.</a>'
     });
