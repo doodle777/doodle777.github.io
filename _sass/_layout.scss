@@ -1,9 +1,5 @@
 @import "base";
 
-.paper-layout .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
-  padding-right: 0;
-}
-
 .paper-content {
   border-radius: 2px;
   margin: 0 auto;
@@ -167,7 +163,7 @@
 
 
 .paper-layout-header {
-  overflow: invisible;
+  overflow: hidden;
 
   .paper-avatar {
     position: absolute;
@@ -179,19 +175,21 @@
       border-radius: 50%;
     }
   }
+
   &.is-compact .paper-avatar {
     top: 10px;
     transform: scale(0) translate(0, 100px);
     -webkit-transform: scale(0) translate(0, 100px);
   }
+
 }
 
 
 // mdl menu hacks
 .mdl-menu__container {
   width: 240px;
-  right: 20px;
-  top: 54px;
+  right: 0px;
+  top: 50px;
 
   &.is-visible {
     .mdl-menu__outline {

@@ -4,6 +4,7 @@ layout: default
 <div class="post">
   <header>
     <h5 class="subheader">
+      <a id="jump_subheader"></a>
       {% assign d = page.date | date: "%d" | plus:'0' %}
       {{ page.date | date: "%B" }}
       {% case d %}
@@ -74,8 +75,7 @@ layout: default
 
   <div class="mdl-grid">
     <section class="share mdl-cell mdl-cell--6-col">
-      <h4>Share Post</h4>
-
+      <b>Share Post</b>
 
       <a id="twitter" class="mdl-button mdl-button--primary twitter" href="http://twitter.com/share?text={{page.title | encode}}{% if site.author.twitter%}&via={{site.author.twitter}}{% endif %}"
          onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
@@ -131,7 +131,7 @@ layout: default
   </div>
 
   <div class="mdl-grid pagination">
-    <div class="mdl-cell mdl-cell--6-col previous">
+    <div class="mdl-cell mdl-cell--4-col previous">
       {% if page.previous %}
         <a class="mdl-button mdl-button--primary" href="{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous Post</a>
       {% else %}
@@ -139,7 +139,19 @@ layout: default
       {% endif %}
     </div>
 
-    <div class="mdl-cell mdl-cell--6-col next">
+    <div class="mdl-cell mdl-cell--1-col">
+        
+    </div>
+
+    <div class="mdl-cell mdl-cell--2-col" style="text-align:center">
+        <a class="mdl-button mdl-button--primary" href="#jump_subheader" title="TOP">&uarr; TOP &uarr;</a>
+    </div>
+
+    <div class="mdl-cell mdl-cell--1-col">
+        
+    </div>
+
+    <div class="mdl-cell mdl-cell--4-col next">
       {% if page.next %}
         <a class="mdl-button mdl-button--primary" href="{{ page.next.url }}" title="{{ page.next.title }}">Next Post &rarr;</a>
       {% else %}
