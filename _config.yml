@@ -10,7 +10,8 @@ markdown: kramdown
 paginate: 10 # pagination based on number of posts
 paginate_path: "page/:num"
 highlighter: pygments
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-coffeescript]
+    
 
 # comments
 disqus: # add disqus shortname here
