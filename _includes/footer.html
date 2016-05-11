@@ -31,6 +31,8 @@
 
     </div>
   </div>
+
+
   <div class="mdl-mega-footer__middle-section">
     <div class="mdl-mega-footer__drop-down-section">
       <h1 class="mdl-mega-footer__heading">Pages</h1>
@@ -46,6 +48,8 @@
       {% endfor %}
       </ul>
     </div>
+
+
     <div class="mdl-mega-footer__drop-down-section">
       <h1 class="mdl-mega-footer__heading">Categories</h1>
       <ul class="mdl-mega-footer__link-list">
@@ -70,6 +74,8 @@
             {% assign categories_list = nil %}
       </ul>
     </div>
+
+
     <div class="mdl-mega-footer__drop-down-section">
       <h1 class="mdl-mega-footer__heading">Tags</h1>
       <ul class="mdl-mega-footer__link-list">
@@ -110,6 +116,30 @@
               {% endfor %}
             {% endif %}
             {% assign tags_list = nil %}
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <h1 class="mdl-mega-footer__heading">Archives</h1>
+      <ul class="mdl-mega-footer__link-list">
+        {% capture post_year1 %}{{ 'now' | date: '%Y' }}{% endcapture %}
+        <li>
+          <a href="{{ 'archives.html' | prepend: site.baseurl | prepend: site.url}}#panel{{ post_year1 | replace:' ','-' }}">
+            {{ post_year1 }}年
+          </a>
+        </li>
+           {% for post in site.posts %}
+              {% capture post_year2 %}{{ post.date | date: '%Y' }}{% endcapture %}
+              {% if post_year1 != post_year2 %}
+        <li>
+          <a href="{{ 'archives.html' | prepend: site.baseurl | prepend: site.url}}#panel{{ post_year2 | replace:' ','-' }}">
+            {{ post_year2 }}年
+          </a>
+        </li>
+                 {% assign post_year1 = post_year2 %}
+              {% endif %}
+           {% endfor %}
+
       </ul>
     </div>
   </div>
