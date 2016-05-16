@@ -42,9 +42,9 @@ class Solution {
 public:
     int nthUglyNumber(int n) 
     {
-        if(n <= 0) return false;     // get rid of corner cases 
-        if(n == 1) return true;      // base case
-        int t2 = 0, t3 = 0, t5 = 0;  //pointers for 2, 3, 5
+        if(n <= 0) return 0; 
+        if(n == 1) return 1; 
+        int t2 = 0, t3 = 0, t5 = 0;
         vector<int> k(n);
         k[0] = 1;
         for(int i  = 1; i < n ; i ++)
