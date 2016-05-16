@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2016-05-15 14:16:00
-title:  "LeetCode(HARD) 316.Remove Duplicate Letters"
+title:  "LeetCode 316. Remove Duplicate Letters(HARD)"
 category: ACM-Free
 tags:   [LeetCode, ACM]
 ---
