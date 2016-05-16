@@ -33,7 +33,7 @@ Android为数据存储提供了五种方式：
 　　然后，我们添加三个TextView和三个EditText和一个Button。如图所示：
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201511/2015110401.png"/> 
+<img src="{{ site.url }}/images/201511/2015110401.png"/> 
 </div>
 
 　　对发送按钮添加相应的点击事件即可。
@@ -108,8 +108,8 @@ public class MainActivity extends AppCompatActivity {
 {% endhighlight %}
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201511/2015110402.png"/> 
-<img src="{{ site.url }}/images/posts/201511/2015110403.png"/> 
+<img src="{{ site.url }}/images/201511/2015110402.png"/> 
+<img src="{{ site.url }}/images/201511/2015110403.png"/> 
 </div>
 
 　　需要指出的是，WebView所接受的URL必须带有类似“http://”的前缀才能正常解析，可以在编程时人工加上去。另外，我们需要覆盖WebView默认使用第三方或系统默认浏览器打开网页的行为，使网页用WebView打开。只需重载shouldOverrideUrlLoading()方法即可。此方法返回值是true的时候控制去WebView打开，为false调用系统浏览器或第三方浏览器。

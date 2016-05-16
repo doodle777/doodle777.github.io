@@ -29,7 +29,7 @@ Log.e("MainActivity", "This is Error.");
 　　此时，我们单击Button时，在Android/logcat中便会显示出Log信息：
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201511/2015110801.png"/> 
+<img src="{{ site.url }}/images/201511/2015110801.png"/> 
 </div>
 
 　　但是，我们发现，Log信息在你的电脑上可能是白色和红色的。那么如何来修改Log信息的颜色呢？

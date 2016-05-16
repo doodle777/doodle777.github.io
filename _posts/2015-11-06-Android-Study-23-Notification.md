@@ -25,7 +25,7 @@ PendingIntent intent = PendingIntent.getActivity(MainActivity.this, 0, getIntent
 　　然后，通过Notification.Builder创建一个Notification对象。
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201511/2015110601.png"/> 
+<img src="{{ site.url }}/images/201511/2015110601.png"/> 
 </div>
 
 {% highlight java linenos %}

@@ -11,7 +11,7 @@ tags:   [Android, Activity]
 当只有一个Activity的时候， 首先执行onCreate->onStart->onResume。 这时， 窗口便显示在屏幕上了。 然后我们按返回键退到桌面的时候，便执行onPause->onStop。这时候， 如果我们在最近使用程序列表内将其再次打开，便会执行onRestart->onStart->onResume。 
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015100701.png"/>
+<img src="{{ site.url }}/images/201510/2015100701.png"/>
 </div>
 
 

@@ -122,8 +122,8 @@ class MyDownloadTask extends AsyncTask<Void, Void, Void> {
 　　这样，我们在输入LaTeX公式之后，单击PREVIEW按钮，就会在ImageView上显示对应的图片了。由于本文只讨论如何进行转化，并没有对图片进行任何优化处理，可能看起来比较小。另外，如果采取去空格转化URL的方法，尽量保证LaTeX表达式是严格合法的（比如所有单元都用{}括起来）。
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201511/2015111704.png"/> 
-<img src="{{ site.url }}/images/posts/201511/2015111705.png"/> 
+<img src="{{ site.url }}/images/201511/2015111704.png"/> 
+<img src="{{ site.url }}/images/201511/2015111705.png"/> 
 </div>
 
 　　完整代码：

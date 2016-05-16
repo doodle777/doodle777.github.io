@@ -23,8 +23,8 @@ tags:   [Android, TabActivity, TabHost]
 首先，新建两个Activity，分别命名为“SignIn“和”SignUp“。
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015101106.png"/> 
-<img src="{{ site.url }}/images/posts/201510/2015101107.png"/>
+<img src="{{ site.url }}/images/201510/2015101106.png"/> 
+<img src="{{ site.url }}/images/201510/2015101107.png"/>
 </div>
  
 
@@ -48,7 +48,7 @@ public class MainActivity extends TabActivity {
 {% endhighlight %}
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015101108.png"/> 
-<img src="{{ site.url }}/images/posts/201510/2015101109.png"/>
+<img src="{{ site.url }}/images/201510/2015101108.png"/> 
+<img src="{{ site.url }}/images/201510/2015101109.png"/>
 </div>
  

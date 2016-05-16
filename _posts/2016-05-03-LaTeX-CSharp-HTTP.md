@@ -30,7 +30,7 @@ $$ i\hbar\frac{\partial \psi}{\partial {t}} = \frac{-\hbar^2}{2m} \left( \frac{\
 > \frac{\partial^2}{\partial{y^2}}+\frac{\partial^2}{\partial{z^2}}\right)\psi+V\psi  
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201605/2016050401.png"/> 
+<img src="{{ site.url }}/images/201605/2016050401.png"/> 
 </div>
 
 　　“粘贴文本”按钮添加如下单击事件。

@@ -12,7 +12,7 @@ tags:   [Android, Alertdialog]
 　　在用户退出的时候提示用户是否退出，含有“确定”和“退出”两个按键。
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015102003.png"/> 
+<img src="{{ site.url }}/images/201510/2015102003.png"/> 
 </div>
 
 {% highlight java linenos %}
@@ -39,7 +39,7 @@ tags:   [Android, Alertdialog]
 　　弹出对话框，让用户选择相应的按钮来获得用户选项。含有相应的提示问题。
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015102004.png"/> 
+<img src="{{ site.url }}/images/201510/2015102004.png"/> 
 </div>
 
 {% highlight java linenos %}
@@ -79,7 +79,7 @@ tags:   [Android, Alertdialog]
 　　弹出对话框，提示用户输入用户名或者密码，可以作登陆使用。
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015102005.png"/> 
+<img src="{{ site.url }}/images/201510/2015102005.png"/> 
 </div>
 
 {% highlight java linenos %}
@@ -102,7 +102,7 @@ tags:   [Android, Alertdialog]
 　　对话框内含有一系列单选按钮让用户选择。
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015102006.png"/> 
+<img src="{{ site.url }}/images/201510/2015102006.png"/> 
 </div>
 
 {% highlight java linenos %}
@@ -123,7 +123,7 @@ tags:   [Android, Alertdialog]
 　　对话框内含有一系列多选按钮让用户选择。
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015102007.png"/> 
+<img src="{{ site.url }}/images/201510/2015102007.png"/> 
 </div>
 
 {% highlight java linenos %}
@@ -145,7 +145,7 @@ tags:   [Android, Alertdialog]
 　　含有一系列简单的列表，供用户点击，可以做菜单使用。
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015102008.png"/> 
+<img src="{{ site.url }}/images/201510/2015102008.png"/> 
 </div>
 
 {% highlight java linenos %}
@@ -166,7 +166,7 @@ tags:   [Android, Alertdialog]
 　　可以自定义对话框显示内容，通过资源文件导入布局。
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015102009.png"/> 
+<img src="{{ site.url }}/images/201510/2015102009.png"/> 
 </div>
 
 {% highlight java linenos %}
@@ -337,6 +337,6 @@ public class MainActivity extends AppCompatActivity {
 {% endhighlight %}
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015102010.png"/> 
+<img src="{{ site.url }}/images/201510/2015102010.png"/> 
 </div>
 

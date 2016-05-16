@@ -11,7 +11,7 @@ tags:   [Android, SeekBar]
 >setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener()
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015101801.png"/> 
+<img src="{{ site.url }}/images/201510/2015101801.png"/> 
 </div>
 
 　　示例代码如下：

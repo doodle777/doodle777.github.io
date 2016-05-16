@@ -118,8 +118,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015102001.png"/> 
-<img src="{{ site.url }}/images/posts/201510/2015102002.png"/> 
+<img src="{{ site.url }}/images/201510/2015102001.png"/> 
+<img src="{{ site.url }}/images/201510/2015102002.png"/> 
 </div>
 
 #### **2、ContextMenu**

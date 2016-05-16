@@ -27,7 +27,7 @@ tags:   [Android, DatePickerDialog, TimePickerDialog]
 {% endhighlight %}
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015101503.png"/> 
+<img src="{{ site.url }}/images/201510/2015101503.png"/> 
 </div>
  
 完整代码为：
@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
 {% endhighlight %}
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015101504.png"/> 
+<img src="{{ site.url }}/images/201510/2015101504.png"/> 
 </div>
  
 完整代码为：

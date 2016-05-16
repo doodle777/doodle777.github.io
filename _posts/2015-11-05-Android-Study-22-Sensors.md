@@ -492,6 +492,6 @@ public class MainActivity extends Activity {
 
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201511/2015110501.png"/> 
+<img src="{{ site.url }}/images/201511/2015110501.png"/> 
 </div>
 

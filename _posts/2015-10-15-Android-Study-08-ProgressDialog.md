@@ -9,8 +9,8 @@ tags:   [Android, ProgressDialog]
 ProgressDialog，进度对话框。一般有两种，一种是圆形的进度条(ProgressDialog.STYLE_SPINNER)，另一种是长条形的进度条(ProgressDialog.STYLE_HORIZONTAL)。
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015101501.png"/> 
-<img src="{{ site.url }}/images/posts/201510/2015101502.png"/>
+<img src="{{ site.url }}/images/201510/2015101501.png"/> 
+<img src="{{ site.url }}/images/201510/2015101502.png"/>
 </div>
  
 ProgressDialog常用的方法有以下几种：

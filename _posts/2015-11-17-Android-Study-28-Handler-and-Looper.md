@@ -43,7 +43,7 @@ public class LooperThread extends Thread {
 #### 1) Looper.prepare()
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201511/2015111701.png"/> 
+<img src="{{ site.url }}/images/201511/2015111701.png"/> 
 </div>
 
 　　通过上图可以看到，现在你的线程中有一个Looper对象，它的内部维护了一个消息队列MQ。注意，一个Thread只能有一个Looper对象。
@@ -51,7 +51,7 @@ public class LooperThread extends Thread {
 #### 2）Looper.loop()
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201511/2015111702.png"/> 
+<img src="{{ site.url }}/images/201511/2015111702.png"/> 
 </div>
 
 　　调用loop方法后，Looper线程就开始真正工作了，它不断从自己的MQ中取出队头的消息(也叫任务)执行。由上loop()方法可以简单得出结论，Looper用以处理MessageQueue中的取出的Message，由MessageQueue是Handler及Looper所共用的，取出的Message则交由Handler进行处理。而Handler也能够通过post或者send等方式将Message添加到MessageQueue中供Looper后续进行取出处理。sThreadLocal保证了Looper是线程私有的，所有信息发送与处理都是在本线程中。
@@ -63,7 +63,7 @@ public class LooperThread extends Thread {
 　　handler扮演了往MQ上添加消息和处理消息的角色（只处理由自己发出的消息），即通知MQ它要执行一个任务(sendMessage)，并在loop到自己的时候执行该任务(handleMessage)，整个过程是异步的。handler创建时会关联一个looper，默认的构造方法将关联当前线程的looper，不过这也是可以set的。加入handler后的效果如下图：
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201511/2015111703.png"/> 
+<img src="{{ site.url }}/images/201511/2015111703.png"/> 
 </div>
 
 　　可以看到，一个线程可以有多个Handler，但是只能有一个Looper！

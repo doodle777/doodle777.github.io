@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
 {% endhighlight %}
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015101401.png"/> 
+<img src="{{ site.url }}/images/201510/2015101401.png"/> 
 </div>
 
 #### **3、RadioButton与RadioGroup**

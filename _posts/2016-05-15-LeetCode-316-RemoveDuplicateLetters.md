@@ -43,7 +43,7 @@ Given a string which contains only lowercase letters, remove duplicate letters s
 首先进行一次遍历计数，统计每个字符出现的次数。然后，从头开始遍历字符串。如果当前字符未被选择，当前的字符串为首字符或者大于最后选择的字符（**栈顶字符**），那么就将其放到栈中，并其计数-1，标记已经选择。否则，如果当前字符小于或等于最后选择字符，就将大于当前字符的非独立字符都出栈（当等于的时候，如果当前字符未被选择，说明存在小于其的字符，但也可能存在大于其的字符，所以按照普通情况对待）。对于栈中的字符，出栈的时候遇到独立字符，那么意味着遇到了分界，否则栈非空的时候一直出栈。然后，将当前字符入栈，更新信息。如果当前字符已经被选择，意味着可以直接跳过。
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201605/2016051501.png" width="100%" height="100%"/> 
+<img src="{{ site.url }}/images/201605/2016051501.png" width="100%" height="100%"/> 
 <p>算法复杂度 O(n)，LeetCode 4ms</p>
 </div>
 

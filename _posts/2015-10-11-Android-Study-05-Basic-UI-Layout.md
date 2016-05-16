@@ -56,7 +56,7 @@ FrameLayout，框架布局。是一种最简单的布局类型，将所有的组
 {% endhighlight %}
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015101101.png"/>
+<img src="{{ site.url }}/images/201510/2015101101.png"/>
 </div>
 
 ##### B. LinearLayout
@@ -91,7 +91,7 @@ LinearLayout，线性布局。所有的组件按照一个方向放置，其方�
 {% endhighlight %}
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015101102.png"/>
+<img src="{{ site.url }}/images/201510/2015101102.png"/>
 </div>
 
 ##### C. AbsoluteLayout
@@ -130,7 +130,7 @@ AbsoluteLayout，绝对布局。这是一种不推荐的方式，因为其组件
 {% endhighlight %}
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015101103.png"/>
+<img src="{{ site.url }}/images/201510/2015101103.png"/>
 </div>
 
 ##### D. RelativeLayout
@@ -206,7 +206,7 @@ RelativeLayout，相对布局。放置在相对布局上的组件可以设置其
 {% endhighlight %}
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015101104.png"/>
+<img src="{{ site.url }}/images/201510/2015101104.png"/>
 </div>
 
 ##### E. GridLayout
@@ -299,7 +299,7 @@ GridLayout，网格布局。这种布局把子视图存放在一个矩形网格�
 {% endhighlight %}
 
 <div style="text-align: center">
-<img src="{{ site.url }}/images/posts/201510/2015101105.png"/>
+<img src="{{ site.url }}/images/201510/2015101105.png"/>
 </div>
 
 #### **3、总结**
