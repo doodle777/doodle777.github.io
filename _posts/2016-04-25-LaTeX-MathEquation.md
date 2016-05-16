@@ -6,8 +6,6 @@ category: Other
 tags:   [LaTeX, Math, Equation]
 ---
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
 #### **一、常用的数学符号**
 
 ##### 1、小写希腊字母
