@@ -90,26 +90,15 @@ layout: default
       <div class="mdl-tooltip" for="twitter">
         Share post on Twitter
       </div>
-      <a id="facebook" class="mdl-button mdl-button--primary facebook" href="https://www.facebook.com/sharer/sharer.php"
-           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-        <span class="icon">
-          <svg viewBox="0 0 512 512"><path style="fill: #3864A3" d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"/></svg><!--[if lt IE 9]><em>Facebook</em><![endif]-->
-        </span>
-        Facebook
+
+      <a id="qzone" class="mdl-button mdl-button--primary qzone" onclick="shareQzone()">
+        Qzone
       </a>
-      <div class="mdl-tooltip" for="facebook">
-        Share post on Facebook
+      <div class="mdl-tooltip" for="twitter">
+        Share post on Qzone
       </div>
 
-      <a id="gplus" class="mdl-button mdl-button--primary gplus" onclick="window.open('https://plus.google.com/share?url='+window.location.href, 'google-plus-share', 'width=490,height=530');return false;">
-        <span class="icon">
-          <svg viewBox="0 0 512 512"><path style="fill: #DC4A38" d="M416.6 179.9h-41.5v41.5h-20.8v-41.5h-41.5v-20.8h41.5v-41.5h20.8v41.5h41.5V179.9zM299.2 351.6c0 31.1-28.4 69-99.9 69 -52.3 0-95.9-22.5-95.9-60.5 0-29.3 18.5-67.3 105.1-67.3 -12.9-10.5-16-25.1-8.2-41 -50.7 0-76.7-29.8-76.7-67.7 0-37 27.5-70.7 83.7-70.7 14.2 0 90 0 90 0l-20.1 21.1h-23.6c16.7 9.5 25.5 29.2 25.5 50.9 0 19.9-11 36-26.6 48.1 -27.7 21.4-20.6 33.4 8.4 54.6C289.7 309.6 299.2 326.2 299.2 351.6zM243.1 186.8c-4.2-31.8-24.9-58-49.2-58.7 -24.3-0.7-40.5 23.7-36.3 55.5 4.2 31.8 27.2 54.1 51.5 54.8C233.3 239.1 247.3 218.6 243.1 186.8zM268.1 354.8c0-26.2-23.9-51.2-64-51.2 -36.1-0.4-66.8 22.8-66.8 49.8 0 27.5 26.1 50.4 62.2 50.4C245.8 403.7 268.1 382.2 268.1 354.8z"/></svg><!--[if lt IE 9]><em>GooglePlus</em><![endif]-->
-        </span>
-        Google+
-      </a>
-      <div class="mdl-tooltip" for="gplus">
-        Share post on Google+
-      </div>
+      
     </section>
 
     {% if site.author %}
