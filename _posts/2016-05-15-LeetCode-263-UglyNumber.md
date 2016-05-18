@@ -3,7 +3,7 @@ layout: post
 date: 2016-05-15 19:13:00
 title:  "LeetCode 263. Ugly Number(EASY)"
 category: ACM-Free
-tags:   [LeetCode, ACM]
+tags:   [LeetCode, ACM, Easy]
 ---
 
 ### Discription:

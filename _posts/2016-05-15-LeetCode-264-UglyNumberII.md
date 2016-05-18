@@ -3,10 +3,10 @@ layout: post
 date: 2016-05-15 19:20:00
 title:  "LeetCode 264. Ugly Number II(MEDIUM)"
 category: ACM-Free
-tags:   [LeetCode, ACM]
+tags:   [LeetCode, ACM, Medium]
 ---
 
-基于 [263. Ugly Number]({{ 'acm-free/2016/05/16/LeetCode-263-UglyNumber.html' | prepend: site.baseurl | prepend: site.url}})
+更多内容参考 [263. Ugly Number]({{ 'acm-free/2016/05/15/LeetCode-263-UglyNumber.html' | prepend: site.baseurl | prepend: site.url}})
 
 ### Discription:
 

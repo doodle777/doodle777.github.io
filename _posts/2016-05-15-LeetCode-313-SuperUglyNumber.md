@@ -3,12 +3,12 @@ layout: post
 date: 2016-05-15 19:35:00
 title:  "LeetCode 313. Super Ugly Number(MEDIUM)"
 category: ACM-Free
-tags:   [LeetCode, ACM]
+tags:   [LeetCode, ACM, Medium]
 ---
 
-更多内容参考 [263. Ugly Number]({{ 'acm-free/2016/05/16/LeetCode-263-UglyNumber.html' | prepend: site.baseurl | prepend: site.url}})
+更多内容参考 [263. Ugly Number]({{ 'acm-free/2016/05/15/LeetCode-263-UglyNumber.html' | prepend: site.baseurl | prepend: site.url}})
 
-更多内容参考 [264. Ugly Number II]({{ 'acm-free/2016/05/16/LeetCode-264-UglyNumberII.html' | prepend: site.baseurl | prepend: site.url}})
+更多内容参考 [264. Ugly Number II]({{ 'acm-free/2016/05/15/LeetCode-264-UglyNumberII.html' | prepend: site.baseurl | prepend: site.url}})
 
 ### Discription:
 

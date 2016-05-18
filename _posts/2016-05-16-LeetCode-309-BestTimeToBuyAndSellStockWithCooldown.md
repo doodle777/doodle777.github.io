@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2016-05-15 14:16:00
-title:  "LeetCode 316. Remove Duplicate Letters(HARD)"
+date: 2016-05-16 21:34:00
+title:  "LeetCode 309. Best Time to Buy and Sell Stock V(EASY)"
 category: ACM-Free
-tags:   [LeetCode, ACM, Hard]
+tags:   [LeetCode, ACM]
 ---
 
 ### Discription:
