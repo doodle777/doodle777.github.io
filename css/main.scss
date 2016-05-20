@@ -10,6 +10,8 @@ $grey-color:        #828282;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "mixin",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "returnTop"
 ;

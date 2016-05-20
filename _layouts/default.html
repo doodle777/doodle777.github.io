@@ -7,7 +7,7 @@
     <div class="paper-layout mdl-layout mdl-js-layout">
       {% include header.html %}
 
-      <main class="mdl-layout__content">
+      <main id="main" class="mdl-layout__content">
         <div id="container" class="paper-container">
           <div class="paper-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell">
             {{ content }}
@@ -34,11 +34,16 @@
       </ul>
     </a>
 
+    <a id="returnTop"></a>
+
     <script src="https://storage.googleapis.com/code.getmdl.io/1.1.3/material.min.js"></script>
+    <script src="{{ 'scripts/jquery.min.js' | prepend: site.baseurl | prepend: site.url}}"></script>
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
     <script src="{{ 'assets/jekyll-search/jekyll-search.min.js' | prepend: site.baseurl | prepend: site.url}}"></script>
     <script src="{{ 'scripts/app.js' | prepend: site.baseurl | prepend: site.url}}"></script>
     <script src="{{ 'scripts/share.js' | prepend: site.baseurl | prepend: site.url}}"></script>
+    <script src="{{ 'scripts/returnTop.js' | prepend: site.baseurl | prepend: site.url}}"></script>
+    
   </body>
 
 </html>
