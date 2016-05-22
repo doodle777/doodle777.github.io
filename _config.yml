@@ -15,7 +15,7 @@ gems: [jekyll-paginate, jekyll-coffeescript]
     
 
 # comments
-disqus: # add disqus shortname here
+disqus: doodle777
 
 # author info
 # add your appropriate info here
