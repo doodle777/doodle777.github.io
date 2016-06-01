@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2016-06-01 21:56:00
+date: 2016-05-31 21:56:00
 title:  "LeetCode 72. Edit Distance(HARD)"
 category: ACM-Free
 tags:   [LeetCode, ACM]
