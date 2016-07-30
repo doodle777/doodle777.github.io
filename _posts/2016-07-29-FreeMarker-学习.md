@@ -84,15 +84,16 @@ public class ${class} {
 	</#list>
 
 	// default constructor
-	public ${class}() {}
+	public ${class}() {
+	}
 
 	<#list attrs as attr>
 	public ${attr.type} get${attr.name?cap_first}() {
 		return this.${attr.name};
 	}
 
-	public void set${attr.name?cap_first}(${attr.type} arg) {
-		this.${attr.name} = arg;
+	public void set${attr.name?cap_first}(${attr.type} ${attr.name}) {
+		this.${attr.name} = ${attr.name};
 	}
 
 	</#list>
