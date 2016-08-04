@@ -2,7 +2,7 @@
 layout: post
 date: 2016-07-29 12:10:23
 title: "FreeMarker 学习（Java）"
-category: Other
+category: Java
 tags:   [FreeMarker]
 ---
 
