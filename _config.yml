@@ -28,7 +28,7 @@ github_username: doodle777
 
 # Theming options
 # These settings are mandatory.
-theme:              'blue-pink'
+# theme:              'blue-pink'
 # drawer theming
 drawer:
   text_color:       'grey-600'
