@@ -6,9 +6,6 @@ category: Android-Study
 tags:   [Android, Handler, Looper]
 ---
 
-* content
-{:toc}
-
 　　Android的消息处理有三个核心类：Looper,Handler和Message。其实还有一个Message Queue（消息队列），但是MQ被封装到Looper里面了，我们不会直接与MQ打交道。平时我们最常使用的就是Message与Handler了，如果使用过HandlerThread或者自己实现类似HandlerThread的东西可能还会接触到Looper，而MessageQueue是Looper内部使用的，对于标准的SDK，我们是无法实例化并使用的（构造函数是包可见性）。
 
 　　在Android中，消息处理的大体过程为：

@@ -5,9 +5,6 @@ title:  "Android开发手记(21) 遍历文件夹"
 category: Android-Study
 tags:   [Android, Folder]
 ---
-
-* content
-{:toc}
  
 　　我们在遍历文件夹的时候由于涉及到SD卡相关操作，所以我们需要添加如下权限：
 

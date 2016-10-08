@@ -1,0 +1,28 @@
+/* returnTop */
+ #returnTop {
+    position: fixed;
+    right: 40px;
+    bottom: -200px;
+    width:28px;
+    height:64px;
+    color: #FFF;
+    background-image: url(../assets/top.png);
+    _background-image: url(../assets/top.png);
+    overflow:hidden;
+    background-repeat:no-repeat;
+    background-position:0 0;
+    @include transition(bottom 0.9s);
+    cursor: pointer;
+    z-index: 1000;
+
+    &:hover{
+        background-position:-28px 0px;
+    }
+
+
+    @media only screen and (max-width: 768px) {
+        right: 10px;
+        bottom: -200px; 
+    }
+}
+

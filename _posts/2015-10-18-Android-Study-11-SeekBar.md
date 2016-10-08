@@ -6,9 +6,6 @@ category: Android-Study
 tags:   [Android, SeekBar]
 ---
 
-* content
-{:toc}
-
 　　安卓滑动条的操作特别简单，通过getProgress()可以获得SeekBar的位置，通过setProgress(int progress)可以设置SeekBar的位置。要想动态获取用户对SeekBar的操作的话，只需要设置setOnSeekBarChangeListener即可。
 
 >setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener()

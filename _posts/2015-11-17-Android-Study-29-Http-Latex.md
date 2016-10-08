@@ -6,9 +6,6 @@ category: Android-Study
 tags:   [Android, Http, Latex]
 ---
 
-* content
-{:toc}
-
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
 　　本文将讲解如何通过codecogs.com和Google.com提供的API接口来将LaTeX数学函数表达式转化为图片形式。具体思路如下：

@@ -6,9 +6,6 @@ category: Java
 tags:   [JUnit]
 ---
 
-* content
-{:toc}
-
 ### 3 JUnit API
 
 **引自[“极客学院”](http://wiki.jikexueyuan.com/project/junit/api.html)**
