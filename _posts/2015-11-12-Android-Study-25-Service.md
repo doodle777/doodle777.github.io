@@ -6,6 +6,9 @@ category: Android-Study
 tags:   [Android, Service]
 ---
 
+* content
+{:toc}
+
 　　本文将通过实现一个简单的Service发送简单消息，然后通过一个BroadcastReceiver接收Service发送的消息，从而改变一个TextView的文本颜色。
 
 　　这里，我们需要三个java文件，一个实现MainActivity，一个实现Service，一个实现BroadcastReceiver。

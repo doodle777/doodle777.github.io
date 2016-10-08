@@ -6,6 +6,9 @@ category: Android-Study
 tags:   [Android, Spinner]
 ---
 
+* content
+{:toc}
+
 #### **1、自定义Spinner**
 
 　　首先，定义Spinner要显示的项目列表/res/values/arrays.xml

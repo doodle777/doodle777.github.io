@@ -6,6 +6,9 @@ category: ACM-Free
 tags:   [LeetCode, ACM, Medium]
 ---
 
+* content
+{:toc}
+
 更多内容参考 [121. Best Time to Buy and Sell Stock]({{ 'acm-free/2016/05/16/LeetCode-121-BestTimeToBuyAndSellStock.html' | prepend: site.baseurl | prepend: site.url}})
 
 ### Discription:

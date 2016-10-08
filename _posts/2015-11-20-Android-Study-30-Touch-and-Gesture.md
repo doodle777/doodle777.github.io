@@ -6,6 +6,9 @@ category: Android-Study
 tags:   [Android, Touch, Gesture]
 ---
 
+* content
+{:toc}
+
 　　触摸操作在现在智能手机系统中起到举足轻重的作用，本文将对安卓中的触摸以及一些简单手势的操作进行简单的介绍。
 
 #### **1、触摸**

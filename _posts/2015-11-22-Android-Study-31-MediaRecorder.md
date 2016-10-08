@@ -6,6 +6,9 @@ category: Android-Study
 tags:   [Android, MediaRecorder]
 ---
 
+* content
+{:toc}
+
 　　使用Android手机的时候，有时我们会用到录音功能，本文简单的介绍了如何使用MediaRecorder通过手机自带麦克风进行录音。
 
 　　首先，既然是录音，我们需要录音和写外存的权限：
