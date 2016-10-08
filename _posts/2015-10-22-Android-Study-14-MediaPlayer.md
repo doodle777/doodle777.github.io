@@ -6,9 +6,6 @@ category: Android-Study
 tags:   [Android, MediaPlayer]
 ---
 
-* content
-{:toc}
-
 #### **1、获取MediaPlayer实例**
 
 #### （1.1）可以直接通过new或者create方式：

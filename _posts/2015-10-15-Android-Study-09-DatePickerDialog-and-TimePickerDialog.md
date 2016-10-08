@@ -6,9 +6,6 @@ category: Android-Study
 tags:   [Android, DatePickerDialog, TimePickerDialog]
 ---
 
-* content
-{:toc}
-
 #### **1、DatePickerDialog**
 
 　　用于获取用户输入的日期信息。其原型为：

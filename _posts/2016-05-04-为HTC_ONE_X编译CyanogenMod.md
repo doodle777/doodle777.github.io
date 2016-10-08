@@ -6,9 +6,6 @@ category: Other
 tags:   [ROM, Recovery, CyanogenMod]
 ---
 
-* content
-{:toc}
-
 **本文翻译自[CyanogenMod Wiki](http://wiki.cyanogenmod.org/w/Build_for_endeavoru)。**
 
 ### 1.简介

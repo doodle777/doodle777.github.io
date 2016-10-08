@@ -6,9 +6,6 @@ category: Other
 tags:   [LaTeX, Math, Equation]
 ---
 
-* content
-{:toc}
-
 #### **一、常用的数学符号**
 
 ##### 1、小写希腊字母

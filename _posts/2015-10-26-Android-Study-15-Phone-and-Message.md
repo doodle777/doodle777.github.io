@@ -6,9 +6,6 @@ category: Android-Study
 tags:   [Android, Phone, Message]
 ---
 
-* content
-{:toc}
-
 #### **1、Intent简介**
 
 　　Android组价之间的通信，由Intent来协助完成。Intent负责对应用中一次操作的动作、动作涉及数据、附加数据进行描述，Android则根据此Intent的描述，负责找到对应的组件，将 Intent传递给调用的组件，并完成组件的调用。

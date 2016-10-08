@@ -6,9 +6,6 @@ category : Android-Study
 tags : [Android, Thread, Runnable]
 ---
 
-* content
-{:toc}
-
 　　Java中常用的有关线程的操作有，判断线程是否启动、线程强制执行、线程休眠、线程中断、线程让步、线程同步等。下面就一一举例。
 
 　　首先，我们新建一个MyThread类实现Runnable接口。基于此接口进行线程的相关操作。

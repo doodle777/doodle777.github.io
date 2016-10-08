@@ -6,9 +6,6 @@ category: Java
 tags:   [FreeMarker]
 ---
 
-* content
-{:toc}
-
 ### 1 FreeMarker简介
 
 **引自[“百度百科”](http://baike.baidu.com/view/1278430.htm)**

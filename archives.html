@@ -1,0 +1,53 @@
+---
+layout: page
+title: Archives
+icon: folder
+---
+<div class="mdl-grid archives">
+
+<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+  <div class="mdl-tabs__tab-bar">
+      {% capture post_year1 %}{{ 'now' | date: '%Y' }}{% endcapture %}
+      <a href="#panel{{ post_year1 }}" class="mdl-tabs__tab is-active">{{ post_year1 }}</a>
+         {% for post in site.posts %}
+            {% capture post_year2 %}{{ post.date | date: '%Y' }}{% endcapture %}
+            {% if post_year1 != post_year2 %}
+      <a href="#panel{{ post_year2 }}" class="mdl-tabs__tab">{{ post_year2 }}</a>
+               {% assign post_year1 = post_year2 %}
+            {% endif %}
+         {% endfor %}
+  </div>
+
+
+  {% capture post_year %}{{ 'now' | date: '%Y' }}{% endcapture %}
+    <div class="mdl-tabs__panel is-active" id="panel{{ post_year }}">
+       <ul class="article-year fn-clear">
+          {% for post in site.posts %}
+             {% capture temp_post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
+             {% if post_year == temp_post_year %}
+          <li>
+             <span>{{ post.date | date_to_utc | date: '%Y-%m-%d' }}</span>
+             <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
+          </li>
+             {% else %}
+       </ul>
+    </div>
+    
+             {% assign post_year = temp_post_year %}
+    <div class="mdl-tabs__panel" id="panel{{ post_year }}">
+       <ul class="article-year fn-clear">
+
+          <li>
+             <span>{{ post.date | date_to_utc | date: '%Y-%m-%d' }}</span>
+             <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
+          </li>
+             {% endif %}
+          {% endfor %}
+
+       </ul>
+    </div>
+
+</div>
+
+
+</div>

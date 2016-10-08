@@ -6,9 +6,6 @@ category: ACM-Free
 tags:   [LeetCode, ACM, Easy]
 ---
 
-* content
-{:toc}
-
 ### Discription:
 
 Say you have an array for which the $$ i^{th} $$ element is the price of a given stock on day i.

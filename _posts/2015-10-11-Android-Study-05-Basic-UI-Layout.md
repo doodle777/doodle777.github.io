@@ -6,9 +6,6 @@ category: Android-Study
 tags:   [Android, UI-Layout]
 ---
 
-* content
-{:toc}
-
 #### **1、View和ViewGroup**
 
 Activity是Android应用程序的基本管理单元，Android的每一个窗口都是通过一个Activity来定义的，但是Activity并不能直接用来显示窗口。我们需要调用setContentView(View view)来显示这个窗口。也就是说，真正用来显示窗口的是View类及其子类。 

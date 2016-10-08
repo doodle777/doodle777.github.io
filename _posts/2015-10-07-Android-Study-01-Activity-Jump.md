@@ -6,9 +6,6 @@ category: Android-Study
 tags:   [Android, Activity]
 ---
 
-* content
-{:toc}
-
 #### **1. 新建Project，并将主页命名为MainActivity**
 
 #### **2. 创建一个Activity**

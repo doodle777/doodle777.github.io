@@ -6,9 +6,6 @@ category: ACM-Free
 tags:   [LeetCode, ACM, Medium]
 ---
 
-* content
-{:toc}
-
 更多内容参考 [263. Ugly Number]({{ 'acm-free/2016/05/15/LeetCode-263-UglyNumber.html' | prepend: site.baseurl | prepend: site.url}})
 
 ### Discription:

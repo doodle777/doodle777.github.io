@@ -6,9 +6,6 @@ category: Android-Study
 tags:   [Android, Menu]
 ---
 
-* content
-{:toc}
-
 　　Android中的Menu分为三种，分别为：OptionsMenu（选项菜单）、ContextMenu（上下文菜单）、SubMenu（子菜单）。
 
 #### **1、OptionsMenu**

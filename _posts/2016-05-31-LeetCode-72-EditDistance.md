@@ -6,9 +6,6 @@ category: ACM-Free
 tags:   [LeetCode, ACM]
 ---
 
-* content
-{:toc}
-
 此题为求最短编辑距离，类似的题目有很多：
 
 [LeetCode Edit-Distance](https://leetcode.com/problems/edit-distance/)
