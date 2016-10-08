@@ -6,6 +6,9 @@ category: Android-Study
 tags:   [Android, TabActivity, TabHost]
 ---
 
+* content
+{:toc}
+
 使用TabHost可以实现标签式效果，将两个Activity放在两个Tab内。 
 
 首先，需要基于MainActivity创建一个TabHost对象。

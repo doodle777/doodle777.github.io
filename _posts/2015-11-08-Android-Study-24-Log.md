@@ -6,6 +6,9 @@ category: Android-Study
 tags:   [Android, Log]
 ---
 
+* content
+{:toc}
+
 　　在程序开发过程中，LOG是广泛使用的用来记录程序执行过程的机制，它既可以用于程序调试，也可以用于产品运营中的事件记录。在Android系统中，提供了简单、便利的LOG机制，开发人员可以方便地使用。本文简单介绍了Android中Log的使用以及在Android Studio中 Log 颜色的更改。
 
 　　要使用 Log，我们需要首先 import android.util.Log，其中Log常用的方法有5个：Log.v() Log.d() Log.i() Log.w() 以及 Log.e() 。根据首字母对应VERBOSE，DEBUG，INFORMATION，WARNING，ERROR。其中：

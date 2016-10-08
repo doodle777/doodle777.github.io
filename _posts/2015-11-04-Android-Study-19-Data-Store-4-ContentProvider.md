@@ -6,6 +6,9 @@ category: Android-Study
 tags:   [Android, DataStore, ContentProvider]
 ---
 
+* content
+{:toc}
+
 转载自：[博客园](http://www.cnblogs.com/devinzhang/archive/2012/01/20/2327863.html)
 
 Android为数据存储提供了五种方式：

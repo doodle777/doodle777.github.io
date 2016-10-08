@@ -6,6 +6,9 @@ category: Android-Study
 tags:   [Android, BroadcastReceiver]
 ---
 
+* content
+{:toc}
+
 在Android 中，Broadcast是一种在应用程序之间进行传输信息的机制。BroadcastReceiver对发送过来的Broadcast进行过滤和响应。根据这种机制，我们可以获取电池现有电量等信息。
 
 #### **1、实例化BroadcastReceiver**

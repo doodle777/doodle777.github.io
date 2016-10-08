@@ -6,6 +6,9 @@ category: Android-Study
 tags:   [Android, ProgressDialog]
 ---
 
+* content
+{:toc}
+
 ProgressDialog，进度对话框。一般有两种，一种是圆形的进度条(ProgressDialog.STYLE_SPINNER)，另一种是长条形的进度条(ProgressDialog.STYLE_HORIZONTAL)。
 
 <div style="text-align: center">

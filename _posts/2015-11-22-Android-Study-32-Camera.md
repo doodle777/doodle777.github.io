@@ -6,6 +6,9 @@ category: Android-Study
 tags:   [Android, Camera]
 ---
 
+* content
+{:toc}
+
 　　在Android中，使用摄像头拍照一般有两种方法， 一种是调用系统自带的Camera，另一种是自己写一个摄像的界面。
 
 　　我们要添加如下权限：

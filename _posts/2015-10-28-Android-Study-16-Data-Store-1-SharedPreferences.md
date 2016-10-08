@@ -6,6 +6,9 @@ category: Android-Study
 tags:   [Android, DataStore, SharedPreferences]
 ---
 
+* content
+{:toc}
+
 Android为数据存储提供了五种方式：
 
 **1、SharedPreferences**

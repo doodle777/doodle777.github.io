@@ -6,6 +6,9 @@ category: Android-Study
 tags:   [Android, Button]
 ---
 
+* content
+{:toc}
+
 #### **1、点击Button改变页面背景色**
 
 　　通过Button改变页面背景色，首先新建相应的对象，让后绑定到Layout上的元素。
