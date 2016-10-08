@@ -1,58 +1,44 @@
-<header id="toolbar" class="paper-layout-header mdl-layout__header mdl-layout__header--waterfall">
-  <!-- Top row, always visible -->
-  <div class="paper-layout-header__up mdl-layout__header-row">
-    <!-- Title -->
-    <span class="mdl-layout-title">{{ site.title }}</span>
-    <div class="mdl-layout-spacer"></div>
-
-    <!-- image -->
-    <div class="paper-avatar">
-      <img src="{{ site.url }}/assets/indexPic.jpg" style="width:80px;height:80px;" />
+<header class="navbar navbar-inverse navbar-fixed-top docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">
+        <img src="{{ '/styles/images/logo.jpg' | prepend: site.baseurl }}">
+      </a>
     </div>
-    <div class="mdl-layout-spacer"></div>
-
-    <!-- Navigation -->
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="{{ site.baseurl }}{{ site.url }}">Home</a>
-      {% for page in site.pages %}
-        {% if page.title %}
-          <a class="mdl-navigation__link" href="{{ page.url | replace_first: '/', '' | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
-        {% endif %}
-      {% endfor %}
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">    
+        <li>
+          <a href="{{ '/' | prepend: site.baseurl }}">Home</a>
+        </li>
+        <li>
+          <a href="{{ '/categories/' | prepend: site.baseurl }}">大类分解</a>
+        </li>
+        <li>
+          <a href="{{ '/tag' | prepend: site.baseurl }}">小类内聚</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="{{ '/donate/' | prepend: site.baseurl }}"><strong>打赏</strong></a>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">关于<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a rel="nofollow" target="_blank" href="{{site.github}}">Github</a></li>
+            <li><a rel="nofollow" target="_blank" href="{{site.resume_site}}">关于作者</a></li>
+            <li><a rel="nofollow" href="{{ '/books' | prepend: site.baseurl }}">我的书单</a></li>
+            <li><a rel="nofollow" href="{{ '/reference' | prepend: site.baseurl }}">推荐博客</a></li>
+            <li><a href="{{ '/feed.xml' | prepend: site.baseurl }}">RSS订阅</a></li>
+            <li class="divider"></li>
+            <li><a rel="nofollow" target="_blank" href="https://github.com/luoyan35714/LessOrMore.git">本项目</a></li>
+          </ul>
+        </li>
+      </ul>
     </nav>
   </div>
-
-  <!-- Bottom row, not visible on scroll -->
-  <div class="paper-layout-header__down mdl-layout__header-row">
-
-  </div>
 </header>
-
-<div class="paper-drawer mdl-layout__drawer mdl-color--{{site.drawer.header_color}}">
-  <header class="paper-drawer-header">
-    <img class="avatar" src="{{ site.url }}/assets/indexPic.jpg" style="width:80px;height:80px;" />
-    <span class="paper-drawer-title">{{ site.title }}</span>
-  </header>
-
-  <nav class="paper-navigation mdl-navigation mdl-color--{{site.drawer.navigation_color}} mdl-color-text--{{site.drawer.text_color}}">
-    <a class="mdl-navigation__link" href="{{ site.baseurl }}{{ site.url }}">
-      <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>
-      Home
-    </a>
-    {% for page in site.pages %}
-      {% if page.title %}
-      <a class="mdl-navigation__link" href="{{ page.url | replace_first: '/', '' | prepend: site.baseurl | prepend: site.url }}">
-        {% if page.icon %}
-          <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">{{ page.icon }}</i>
-        {% endif %}
-        {{ page.title }}
-      </a>
-      {% endif %}
-    {% endfor %}
-    <div class="mdl-layout-spacer"></div>
-    <a class="mdl-navigation__link" href="https://github.com/dbtek/paper">
-      <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">help_outline</i>
-      Based On Jekyll with Paper Theme
-    </a>
-  </nav>
-</div>
