@@ -6,6 +6,9 @@ category: Android-Study
 tags:   [Android, Sensor]
 ---
 
+* content
+{:toc}
+
 　　Android的传感器主要包括八大传感器，他们分别是：加速度传感器（accelerometer）、陀螺仪（gyroscope）、方向传感器（orientation）、磁力传感器（magnetic field）、环境光照传感器（light）、温度传感器（temperature）、距离传感器（proximity）和压力传感器（pressure）。本文先对传感器的使用做一个总体的介绍，然后再详细介绍每一种传感器的具体参数获取。
 
 #### **〇、总体介绍**

@@ -6,6 +6,9 @@ category: ACM-Free
 tags:   [LeetCode, ACM, Easy]
 ---
 
+* content
+{:toc}
+
 ### Discription:
 
 Write a program to check whether a given number is an ugly number.

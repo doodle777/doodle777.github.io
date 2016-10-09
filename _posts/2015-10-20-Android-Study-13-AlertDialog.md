@@ -5,6 +5,10 @@ title:  "Android开发手记(13) 几种Alertdialog的使用"
 category: Android-Study
 tags:   [Android, Alertdialog]
 ---
+
+* content
+{:toc}
+
 　　本文主要讨论七种形式的AlertDialog，及其编写方法。
 
 ### **1、退出**

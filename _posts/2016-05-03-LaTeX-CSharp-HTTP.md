@@ -6,6 +6,9 @@ category: Other
 tags:   [LaTeX, C#, Math, Equation]
 ---
 
+* content
+{:toc}
+
 
 　　本文将讲解如何通过codecogs.com和Google.com提供的API接口来将LaTeX数学函数表达式转化为图片形式。具体思路如下：
 

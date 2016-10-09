@@ -6,6 +6,9 @@ category: Android-Study
 tags:   [Android, Thread, Runnable]
 ---
 
+* content
+{:toc}
+
 　　随着多核CPU的发展，多线程编程显得越来越重要，本文将对Java中的多线程编程进行一些简单的探讨。
 
 #### **1、继承Thread类**

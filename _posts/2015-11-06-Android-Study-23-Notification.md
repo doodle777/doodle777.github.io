@@ -6,6 +6,9 @@ category: Android-Study
 tags:   [Android, Notification]
 ---
 
+* content
+{:toc}
+
 　　有时候，我们需要应用程序在状态内显示一些通知信息，这时我们就需要使用Notification来完成这一工作。也许我们会想到以前经常使用的Toast来通知用户。虽然Notification与Toast都可以起到通知、提醒的作用，其实这两者还是有很大不同的。在android中，Notification是通过NotificationManager进行统一管理的，而Toast使用Toast.makeToast即可显示。另外，Notification可以长久的显示在系统的状态栏内，但是Toast只能暂时显示一段时间。
 
 　　现在我们开始讨论创建Notification的一般步骤。
