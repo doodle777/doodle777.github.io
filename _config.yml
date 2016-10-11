@@ -1,37 +1,63 @@
 # Site settings
 name: Less Or More
-email: duanxu@outlook.com
-author: Duan Xu
-url: http://www.duanxu.science
-resume_site: http://www.hifreud.com/Resume.io/
-github: https://github.com/doodle777/
 baseurl: ""
-description: Actually, less is more!
-meta_description: 康志华;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
+description: Welcome to my blog!
+meta_description: Welcome to my blog!
 motto: MAY THE FORCE BE WITH YOU.
-banner: 学而不思则罔，思而不学则殆。
+banner: Welcome to my blog!
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
 paginate: 10
+paginate_path: "page/:num"
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+# exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-github_username: luoyan35714
-highlighter: rouge
+# Author Information
+email: duanxu@outlook.com
+author: Duan Xu
+url: http://www.duanxu.science
+resume_site: http://www.duanxu.science/about
+github_username: doodle777
+github: https://github.com/doodle777/
+
 
 # Build settings
 markdown: kramdown
+# !github-pages! mandatory › https://help.github.com/articles/using-jekyll-with-pages/#configuration-settings-you-cannot-change
+# Since Jekyll 3 the default highlighter is Rouge (replaced Pygments.rb in v44)
+highlighter: rouge
 
-gems: [jekyll-paginate, jekyll-coffeescript]
+gems: [jekyll-paginate]
 
+# More › http://kramdown.gettalong.org/quickref.html
+# Options › http://kramdown.gettalong.org/options.html
+kramdown:
+  input:          GFM
+  # https://github.com/jekyll/jekyll/pull/4090
+  syntax_highlighter: rouge
+
+  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
+  # span, block element options fall back to global
+  syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: 'highlight'
+    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
+
+# Comments
 FB:
   comments :
     provider : duoshuo
     duoshuo:
-        short_name : luoyan35714
+        short_name : doodle777
     disqus :
-        short_name : freudkang
+        short_name : doodle777
     # facebook :
     #   appid : 123
     #   num_posts: 5
