@@ -1,10 +1,10 @@
 # Site settings
-name: Less Or More
+name: Welcome
 baseurl: ""
-description: Welcome to my blog!
-meta_description: Welcome to my blog!
-motto: MAY THE FORCE BE WITH YOU.
-banner: Welcome to my blog!
+description: MAY THE FORCE BE WITH YOU
+meta_description: MAY THE FORCE BE WITH YOU
+motto: MAY THE FORCE BE WITH YOU
+banner: MAY THE FORCE BE WITH YOU
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/

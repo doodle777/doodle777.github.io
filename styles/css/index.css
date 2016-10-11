@@ -493,7 +493,7 @@ blockquote {
 blockquote p {
   color: #7a7a7a;
   font-weight: 300;
-  line-height: 1.25;
+  line-height: 1.5;
 }
 blockquote p:last-child {
   margin-bottom: 0;
@@ -1234,14 +1234,15 @@ pre code {
 }
 table {
   max-width: 100%;
-  background-color: transparent;
+  background-color: #e8e8e8;
 }
 th {
   text-align: left;
 }
 .table {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+  border: 1px solid #e8e8e8;
 }
 .table > thead > tr > th,
 .table > tbody > tr > th,
@@ -1251,8 +1252,8 @@ th {
 .table > tfoot > tr > td {
   padding: 8px;
   line-height: 1.42857143;
-  vertical-align: top;
-  border-top: 0px solid #dddddd;
+  vertical-align: center;
+  border: 1px solid #e1e1e8
 }
 .table > thead > tr > th {
   vertical-align: bottom;
@@ -5808,10 +5809,10 @@ body {
 .highlight {
   display: none;
   /* hidden by default, until >480px */
-  padding: 9px 14px;
-  margin-bottom: 14px;
+  /* padding: 9px 14px; */
+  /* margin-bottom: 10px; */
   background-color: #f7f7f9;
-  border: 1px solid #e1e1e8;
+  /* border: 1px solid #e1e1e8; */
   border-radius: 4px;
 }
 .highlight pre {
@@ -5830,7 +5831,7 @@ body {
 .highlight pre .lineno {
   display: inline-block;
   width: 22px;
-  padding-right: 5px;
+  padding-right: 0px;
   margin-right: 10px;
   text-align: right;
   color: #bebec5;
@@ -6319,7 +6320,7 @@ hr {
 }
 /* Page headers */
 .docs-header {
-  padding: 60px 15px 50px;
+  padding: 50px 15px 30px;
   /* side padding builds on .container 15px, so 30px */
   font-size: 10px;
   text-align: center;
@@ -6338,23 +6339,23 @@ hr {
 @media (min-width: 768px) {
   .docs-header {
     font-size: 21px;
-    text-align: left;
+    text-align: center;
   }
   .docs-header h1 {
-    font-size: 60px;
-    line-height: 1;
+    font-size: 40px;
+    line-height: 1.5;
   }
 }
 @media (min-width: 992px) {
   .docs-header h1,
   .docs-header p {
-    margin-right: 380px;
+    margin-right: 0px;
   }
 }
 .footer {
   padding-top: 40px;
   padding-bottom: 30px;
-  margin-top: 100px;
+  margin-top: 0px;
   color: #777;
   background: #fff;
   text-align: center;
@@ -6373,7 +6374,7 @@ hr {
 }
 @media (min-width: 768px) {
   .footer {
-    text-align: left;
+    text-align: center;
   }
   .footer p {
     margin-bottom: 0;
@@ -6425,6 +6426,7 @@ hr {
 .docs-content {
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
 }
 .docs-section + .docs-section {
   padding-top: 40px;
