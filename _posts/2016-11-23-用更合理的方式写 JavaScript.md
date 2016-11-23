@@ -13,41 +13,9 @@ tags:   [JavaScript, Style Guide]
 
 *用更合理的方式写 JavaScript* [原文链接](https://github.com/airbnb/javascript)
 
-## <a name="table-of-contents">目录</a>
+# table-of-contents
 
-  1. [类型](#types)
-  1. [对象](#objects)
-  1. [数组](#arrays)
-  1. [字符串](#strings)
-  1. [函数](#functions)
-  1. [属性](#properties)
-  1. [变量](#variables)
-  1. [提升](#hoisting)
-  1. [比较运算符 & 等号](#comparison-operators--equality)
-  1. [块](#blocks)
-  1. [注释](#comments)
-  1. [空白](#whitespace)
-  1. [逗号](#commas)
-  1. [分号](#semicolons)
-  1. [类型转化](#type-casting--coercion)
-  1. [命名规则](#naming-conventions)
-  1. [存取器](#accessors)
-  1. [构造函数](#constructors)
-  1. [事件](#events)
-  1. [模块](#modules)
-  1. [jQuery](#jquery)
-  1. [ECMAScript 5 兼容性](#ecmascript-5-compatibility)
-  1. [测试](#testing)
-  1. [性能](#performance)
-  1. [资源](#resources)
-  1. [谁在使用](#in-the-wild)
-  1. [翻译](#translation)
-  1. [JavaScript 风格指南说明](#the-javascript-style-guide-guide)
-  1. [与我们讨论 JavaScript](#chat-with-us-about-javascript)
-  1. [贡献者](#contributors)
-  1. [许可](#license)
-
-## <a name="types">类型</a>
+## 类型
 
   - **原始值**: 存取直接作用于它自身。
 
@@ -82,7 +50,7 @@ tags:   [JavaScript, Style Guide]
 
 **[⬆ 回到顶部](#table-of-contents)**
 
-## <a name="objects">对象</a>
+## 对象
 
   - 使用直接量创建对象。
 
@@ -131,7 +99,7 @@ tags:   [JavaScript, Style Guide]
 
 **[⬆ 回到顶部](#table-of-contents)**
 
-## <a name="arrays">数组</a>
+## 数组
 
   - 使用直接量创建数组。
 
@@ -184,7 +152,7 @@ tags:   [JavaScript, Style Guide]
 **[⬆ 回到顶部](#table-of-contents)**
 
 
-## <a name="strings">字符串</a>
+## 字符串
 
   - 使用单引号 `''` 包裹字符串。
 
@@ -269,7 +237,7 @@ tags:   [JavaScript, Style Guide]
 **[⬆ 回到顶部](#table-of-contents)**
 
 
-## <a name="functions">函数</a>
+## 函数
 
   - 函数表达式：
 
@@ -328,7 +296,7 @@ tags:   [JavaScript, Style Guide]
 
 
 
-## <a name="properties">属性</a>
+## 属性
 
   - 使用 `.` 来访问对象的属性。
 
@@ -363,7 +331,7 @@ tags:   [JavaScript, Style Guide]
 **[⬆ 回到顶部](#table-of-contents)**
 
 
-## <a name="variables">变量</a>
+## 变量
 
   - 总是使用 `var` 来声明变量。不这么做将导致产生全局变量。我们要避免污染全局命名空间。
 
@@ -485,7 +453,7 @@ tags:   [JavaScript, Style Guide]
 **[⬆ 回到顶部](#table-of-contents)**
 
 
-## <a name="hoisting">提升</a>
+## 提升
 
   - 变量声明会提升至作用域顶部，但赋值不会。
 
@@ -569,7 +537,7 @@ tags:   [JavaScript, Style Guide]
 
 
 
-## <a name="comparison-operators--equality">比较运算符 & 等号</a>
+## 比较运算符 & 等号
 
   - 优先使用 `===` 和 `!==` 而不是 `==` 和 `!=`.
   - 条件表达式例如 `if` 语句通过抽象方法 `ToBoolean` 强制计算它们的表达式并且总是遵守下面的规则：
@@ -617,7 +585,7 @@ tags:   [JavaScript, Style Guide]
 **[⬆ 回到顶部](#table-of-contents)**
 
 
-## <a name="blocks">块</a>
+## 块
 
   - 使用大括号包裹所有的多行代码块。
 
@@ -668,7 +636,7 @@ tags:   [JavaScript, Style Guide]
 **[⬆ 回到顶部](#table-of-contents)**
 
 
-## <a name="comments">注释</a>
+## 注释
 
   - 使用 `/** ... */` 作为多行注释。包含描述、指定所有参数和返回值的类型和值。
 
@@ -761,7 +729,7 @@ tags:   [JavaScript, Style Guide]
 **[⬆ 回到顶部](#table-of-contents)**
 
 
-## <a name="whitespace">空白</a>
+## 空白
 
   - 使用 2 个空格作为缩进。
 
@@ -945,7 +913,7 @@ tags:   [JavaScript, Style Guide]
 
 **[⬆ 回到顶部](#table-of-contents)**
 
-## <a name="commas">逗号</a>
+## 逗号
 
   - 行首逗号: **不需要**。
 
@@ -1012,7 +980,7 @@ tags:   [JavaScript, Style Guide]
 **[⬆ 回到顶部](#table-of-contents)**
 
 
-## <a name="semicolons">分号</a>
+## 分号
 
   - **使用分号。**
 
@@ -1041,7 +1009,7 @@ tags:   [JavaScript, Style Guide]
 **[⬆ 回到顶部](#table-of-contents)**
 
 
-## <a name="type-casting--coercion">类型转换</a>
+## 类型转换
 
   - 在语句开始时执行类型转换。
   - 字符串：
@@ -1124,7 +1092,7 @@ tags:   [JavaScript, Style Guide]
 **[⬆ 回到顶部](#table-of-contents)**
 
 
-## <a name="naming-conventions">命名规则</a>
+## 命名规则
 
   - 避免单字母命名。命名应具备描述性。
 
@@ -1263,7 +1231,7 @@ tags:   [JavaScript, Style Guide]
 **[⬆ 回到顶部](#table-of-contents)**
 
 
-## <a name="accessors">存取器</a>
+## 存取器
 
   - 属性的存取函数不是必须的。
   - 如果你需要存取函数时使用 `getVal()` 和 `setVal('hello')`。
@@ -1317,7 +1285,7 @@ tags:   [JavaScript, Style Guide]
 **[⬆ 回到顶部](#table-of-contents)**
 
 
-## <a name="constructors">构造函数</a>
+## 构造函数
 
   - 给对象原型分配方法，而不是使用一个新对象覆盖原型。覆盖原型将导致继承出现问题：重设原型将覆盖原有原型！
 
@@ -1402,7 +1370,7 @@ tags:   [JavaScript, Style Guide]
 **[⬆ 回到顶部](#table-of-contents)**
 
 
-## <a name="events">事件</a>
+## 事件
 
   - 当给事件附加数据时（无论是 DOM 事件还是私有事件），传入一个哈希而不是原始值。这样可以让后面的贡献者增加更多数据到事件数据而无需找出并更新事件的每一个处理器。例如，不好的写法：
 
@@ -1433,7 +1401,7 @@ tags:   [JavaScript, Style Guide]
   **[⬆ 回到顶部](#table-of-contents)**
 
 
-## <a name="modules">模块</a>
+## 模块
 
   - 模块应该以 `!` 开始。这样确保了当一个不好的模块忘记包含最后的分号时，在合并代码到生产环境后不会产生错误。[详细说明](https://github.com/airbnb/javascript/issues/44#issuecomment-13063933)
   - 文件应该以驼峰式命名，并放在同名的文件夹里，且与导出的名字一致。
@@ -1464,7 +1432,7 @@ tags:   [JavaScript, Style Guide]
 **[⬆ 回到顶部](#table-of-contents)**
 
 
-## <a name="jquery">jQuery</a>
+## jQuery
 
   - 使用 `$` 作为存储 jQuery 对象的变量名前缀。
 
@@ -1526,14 +1494,14 @@ tags:   [JavaScript, Style Guide]
 **[⬆ 回到顶部](#table-of-contents)**
 
 
-## <a name="ecmascript-5-compatibility">ECMAScript 5 兼容性</a>
+## ECMAScript 5 兼容性
 
   - 参考 [Kangax](https://twitter.com/kangax/) 的 ES5 [兼容表](http://kangax.github.com/es5-compat-table/).
 
 **[⬆ 回到顶部](#table-of-contents)**
 
 
-## <a name="testing">测试</a>
+## 测试
 
   - **Yup.**
 
@@ -1546,7 +1514,7 @@ tags:   [JavaScript, Style Guide]
 **[⬆ 回到顶部](#table-of-contents)**
 
 
-## <a name="performance">性能</a>
+## 性能
 
   - [On Layout & Web Performance](http://kellegous.com/j/2013/01/26/layout-performance/)
   - [String vs Array Concat](http://jsperf.com/string-vs-array-concat/2)
@@ -1560,7 +1528,7 @@ tags:   [JavaScript, Style Guide]
 **[⬆ 回到顶部](#table-of-contents)**
 
 
-## <a name="resources">资源</a>
+## 资源
 
 
 **推荐阅读**
@@ -1635,7 +1603,7 @@ tags:   [JavaScript, Style Guide]
 
 **[⬆ 回到顶部](#table-of-contents)**
 
-## <a name="in-the-wild">谁在使用</a>
+## 谁在使用
 
   这是一个使用本风格指南的组织列表。给我们发 pull request 或开一个 issue 让我们将你增加到列表上。
 
@@ -1689,7 +1657,7 @@ tags:   [JavaScript, Style Guide]
   - **Zillow**: [zillow/javascript](https://github.com/zillow/javascript)
   - **ZocDoc**: [ZocDoc/javascript](https://github.com/ZocDoc/javascript)
 
-## <a name="translation">翻译</a>
+## 翻译
 
   这份风格指南也提供了其它语言的版本：
 
@@ -1708,20 +1676,20 @@ tags:   [JavaScript, Style Guide]
   - ![es](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Spain.png) **Spanish**: [paolocarrasco/javascript-style-guide](https://github.com/paolocarrasco/javascript-style-guide)
   - ![th](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Thailand.png) **Thai**: [lvarayut/javascript-style-guide](https://github.com/lvarayut/javascript-style-guide)
 
-## <a name="the-javascript-style-guide-guide">JavaScript 风格指南说明</a>
+## JavaScript 风格指南说明
 
   - [Reference](https://github.com/airbnb/javascript/wiki/The-JavaScript-Style-Guide-Guide)
 
-## <a name="chat-with-us-about-javascript">与我们讨论 JavaScript</a>
+## 与我们讨论 JavaScript
 
   - Find us on [gitter](https://gitter.im/airbnb/javascript).
 
-## <a name="contributors">贡献者</a>
+## 贡献者
 
   - [View Contributors](https://github.com/airbnb/javascript/graphs/contributors)
 
 
-## <a name="license">许可</a>
+## 许可
 
 (The MIT License)
 
