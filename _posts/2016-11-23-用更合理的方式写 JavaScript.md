@@ -46,7 +46,7 @@ tags:   [JavaScript, Style Guide]
     console.log(foo[0], bar[0]); // => 9, 9
     ```
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 ## 对象
 
@@ -95,7 +95,7 @@ tags:   [JavaScript, Style Guide]
     };
     ```
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 ## 数组
 
@@ -147,7 +147,7 @@ tags:   [JavaScript, Style Guide]
     }
     ```
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 
 ## 字符串
@@ -232,7 +232,7 @@ tags:   [JavaScript, Style Guide]
     }
     ```
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 
 ## 函数
@@ -290,7 +290,7 @@ tags:   [JavaScript, Style Guide]
     }
     ```
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 
 
@@ -326,7 +326,7 @@ tags:   [JavaScript, Style Guide]
     var isJedi = getProp('jedi');
     ```
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 
 ## 变量
@@ -448,7 +448,7 @@ tags:   [JavaScript, Style Guide]
     }
     ```
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 
 ## 提升
@@ -531,7 +531,7 @@ tags:   [JavaScript, Style Guide]
 
   - 了解更多信息在 [JavaScript Scoping & Hoisting](http://www.adequatelygood.com/2010/2/JavaScript-Scoping-and-Hoisting) by [Ben Cherry](http://www.adequatelygood.com/).
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 
 
@@ -580,7 +580,7 @@ tags:   [JavaScript, Style Guide]
 
   - 了解更多信息在 [Truth Equality and JavaScript](http://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/#more-2108) by Angus Croll.
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 
 ## 块
@@ -631,7 +631,7 @@ tags:   [JavaScript, Style Guide]
     ```
 
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 
 ## 注释
@@ -724,7 +724,7 @@ tags:   [JavaScript, Style Guide]
     }
     ```
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 
 ## 空白
@@ -909,7 +909,7 @@ tags:   [JavaScript, Style Guide]
     ```
 
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 ## 逗号
 
@@ -975,7 +975,7 @@ tags:   [JavaScript, Style Guide]
     ];
     ```
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 
 ## 分号
@@ -1004,7 +1004,7 @@ tags:   [JavaScript, Style Guide]
 
     [了解更多](http://stackoverflow.com/a/7365214/1712802).
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 
 ## 类型转换
@@ -1087,7 +1087,7 @@ tags:   [JavaScript, Style Guide]
     var hasAge = !!age;
     ```
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 
 ## 命名规则
@@ -1226,7 +1226,7 @@ tags:   [JavaScript, Style Guide]
     var CheckBox = require('./CheckBox');
     ```
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 
 ## 存取器
@@ -1280,7 +1280,7 @@ tags:   [JavaScript, Style Guide]
     };
     ```
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 
 ## 构造函数
@@ -1365,7 +1365,7 @@ tags:   [JavaScript, Style Guide]
     };
     ```
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 
 ## 事件
@@ -1396,7 +1396,7 @@ tags:   [JavaScript, Style Guide]
     });
     ```
 
-  **[⬆ 回到顶部](#类型)**
+  **[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 
 ## 模块
@@ -1427,7 +1427,7 @@ tags:   [JavaScript, Style Guide]
     }(this);
     ```
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 
 ## jQuery
@@ -1489,14 +1489,14 @@ tags:   [JavaScript, Style Guide]
     $sidebar.find('ul').hide();
     ```
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 
 ## ECMAScript 5 兼容性
 
   - 参考 [Kangax](https://twitter.com/kangax/) 的 ES5 [兼容表](http://kangax.github.com/es5-compat-table/).
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 
 ## 测试
@@ -1509,7 +1509,7 @@ tags:   [JavaScript, Style Guide]
     }
     ```
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 
 ## 性能
@@ -1523,7 +1523,7 @@ tags:   [JavaScript, Style Guide]
   - [Long String Concatenation](http://jsperf.com/ya-string-concat)
   - Loading...
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 
 ## 资源
@@ -1599,7 +1599,7 @@ tags:   [JavaScript, Style Guide]
   - [JavaScript Jabber](http://devchat.tv/js-jabber/)
 
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 ## 谁在使用
 
@@ -1712,6 +1712,6 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-**[⬆ 回到顶部](#类型)**
+**[⬆ 回到顶部](#airbnb-javascript-style-guide-)**
 
 # };
