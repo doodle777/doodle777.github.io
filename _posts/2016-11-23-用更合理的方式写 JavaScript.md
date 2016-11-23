@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2016-11-23 18:49:30
-title: "\[转\]用更合理的方式写 JavaScript"
+title: "[转]用更合理的方式写 JavaScript"
 category: JavaScript
 tags:   [JavaScript, Style Guide]
 ---
