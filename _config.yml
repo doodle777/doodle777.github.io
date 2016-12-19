@@ -16,8 +16,8 @@ paginate_path: "page/:num"
 # Author Information
 email: duanxu@outlook.com
 author: Duan Xu
-url: http://www.duanxu.science
-resume_site: http://www.duanxu.science/about
+url: http://blog.duanxu.com.cn
+resume_site: http://blog.duanxu.com.cn/about
 github_username: doodle777
 github: https://github.com/doodle777/
 
