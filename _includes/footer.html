@@ -11,3 +11,22 @@
 <script src="{{ '/styles/js/holder.min.js' | prepend: site.baseurl }}"></script>
 <script src="{{ '/styles/js/application.js' | prepend: site.baseurl }}"></script>
 <script src="{{ '/styles/js/lessismore.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/styles/js/crazy.js' | prepend: site.baseurl }}"></script>
+<script>
+	var htcss="{{ '/styles/css/crazy.css' | prepend: site.baseurl }}";
+	var CrazyMusic=[
+	    "{{ '/styles/music/aLIEz.mp3' | prepend: site.baseurl }}",
+	    "{{ '/styles/music/Catch a Grenade.mp3' | prepend: site.baseurl }}",
+	    "{{ '/styles/music/Devil In My Hand.mp3' | prepend: site.baseurl }}",
+	    "{{ '/styles/music/Dive Wet.mp3' | prepend: site.baseurl }}",
+	    "{{ '/styles/music/Gangnam Style.mp3' | prepend: site.baseurl }}",
+	    "{{ '/styles/music/Running Back to You.mp3' | prepend: site.baseurl }}",
+	    "{{ '/styles/music/The La La La.mp3' | prepend: site.baseurl }}"
+	];
+
+	function KeyMonitor() { 
+	    if (event.keyCode == 27) {stopCrazy()}; 
+	 } 
+	$(document).bind("dblclick",stopCrazy);
+	$(document).bind("onkeydown ",KeyMonitor);
+</script>
