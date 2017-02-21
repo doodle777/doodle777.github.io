@@ -2,7 +2,14 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{{ page.title }}</title>
+
+	{% if page.title %}
+		<title>{{ page.title }}</title>
+	{% elsif page.type %}
+		<title>{{ page.type }}</title>
+	{% else %}
+		<title>{{ site.name }}</title>
+	{% endif %}
 
 	<link rel="shortcut icon" href="{{ '/styles/images/favicon_64.png' | prepend: site.baseurl }}">
 	<link rel="icon" href="{{ '/styles/images/favicon_64.png' | prepend: site.baseurl }}">
